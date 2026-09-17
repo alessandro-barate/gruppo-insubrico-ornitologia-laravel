@@ -19,7 +19,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => ['http://localhost:3000', 'http://192.168.1.55:3000', 'https://gruppoinsubrico.com'],    // TODO: In produzione rimuovere gli url locali
 
     'allowed_origins_patterns' => [],
 
