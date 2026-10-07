@@ -7,6 +7,7 @@ use App\Mail\ContactNotification;
 use App\Mail\ContactConfirmation;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
@@ -22,8 +23,16 @@ class ContactController extends Controller
 
         $contact = ContactMessage::create($request->validated());
 
-        Mail::to('tua-mail@esempio.it')->send(new ContactNotification($contact));   // TODO: In produzione mettere indirizzo mail reale
-        Mail::to($contact->mail)->send(new ContactConfirmation($contact));
+        try {
+
+            Mail::to('tua-mail@esempio.it')->send(new ContactNotification($contact));   // TODO: In produzione mettere indirizzo mail reale
+            Mail::to($contact->mail)->send(new ContactConfirmation($contact));
+
+        } catch (\Throwable $e) {
+
+            Log::error('Invio mail fallito: ' . $e->getMessage());    // Il messaggio è comunque salvato: la richiesta non fallisce
+
+        }
 
         return response()->json(['message' => 'Messaggio inviato con successo'], 201);
     }

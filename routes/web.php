@@ -21,7 +21,9 @@ use App\Mail\ContactConfirmation;
 //     return view('welcome');
 // });
 
-Route::get('/preview-mail', function () {
+// Controllo d'ambiente, per toglierle in automatico se non si è in locale
+if (app()->environment('local')) {
+    Route::get('/preview-mail', function () {
     // dati finti per l'anteprima della mail inviata dall'utente (non tocca il DB)
     $contact = new ContactMessage([
         'name'    => 'Mario',
@@ -31,18 +33,17 @@ Route::get('/preview-mail', function () {
     ]);
 
     return new ContactNotification($contact);
-});
+    });
 
-Route::get('/preview-confirmation', function(){
-    // dati finti per l'anteprima della mail di conferma di avvenuta ricezione inviata all'utente (non tocca il DB)
-    $contact = new ContactMessage([
-        'name'    => 'Mario',
-        'surname' => 'Rossi',
-        'mail'    => 'mario.rossi@esempio.it',
-        'message' => 'Questo è un messaggio di prova per vedere lo stile della mail di conferma della ricezione del messaggio del form.',
-    ]);
+    Route::get('/preview-confirmation', function(){
+        // dati finti per l'anteprima della mail di conferma di avvenuta ricezione inviata all'utente (non tocca il DB)
+        $contact = new ContactMessage([
+            'name'    => 'Mario',
+            'surname' => 'Rossi',
+            'mail'    => 'mario.rossi@esempio.it',
+            'message' => 'Questo è un messaggio di prova per vedere lo stile della mail di conferma della ricezione del messaggio del form.',
+        ]);
 
-    return new ContactConfirmation($contact);
-});
-
-// TODO: in produzione rimuovere i blocchi sopra e gli import
+        return new ContactConfirmation($contact);
+    });
+}

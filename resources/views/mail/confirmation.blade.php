@@ -66,7 +66,7 @@
             <td class="px" style="padding:12px 40px 8px; font-family:'Sora',Arial,Helvetica,sans-serif; font-size:16px; line-height:24px; color:#3a3a3a;">
               <p style="margin:0 0 16px;">Ciao {{ $contact->name }},</p>
               <p style="margin:0 0 16px;">
-                abbiamo ricevuto il tuo messaggio e ti risponderemo il prima possibile.
+                abbiamo ricevuto il tuo messaggio e ti risponderemo il prima possibile.<br>
                 Di seguito trovi una copia di quanto ci hai inviato.
               </p>
             </td>
@@ -89,7 +89,7 @@
           <!-- CHIUSURA -->
           <tr>
             <td class="px" style="padding:0 40px 36px; font-family:'Sora',Arial,Helvetica,sans-serif; font-size:16px; line-height:24px; color:#3a3a3a;">
-              <p style="margin:0;">Un saluto,<br>Il team del Gruppo Insubrico di Ornitologia</p>
+              <p style="margin:0;">Un saluto,<br>Il team del Gruppo Insubrico di Ornitologia.</p>
             </td>
           </tr>
 
