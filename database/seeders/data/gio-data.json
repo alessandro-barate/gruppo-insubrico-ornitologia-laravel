@@ -1,0 +1,1695 @@
+{
+  "pubblicazioni": {
+    "intro_text": "Le pubblicazioni scientifiche del Gruppo Insubrico di Ornitologia raccolgono oltre vent'anni di attivit&agrave; scientifica e divulgativa, documentando ricerche, monitoraggi e studi dedicati all'avifauna. In questa sezione sono disponibili i <strong><em>Quaderni del G.I.O.</em></strong>, il <strong><em>BOL - Bollettino Ornitologico Lombardo</em></strong>, gli <strong><em>Uccelli della Provincia di Varese</em></strong> che comprende la <strong><em>Lista degli uccelli</em></strong> e il <strong><em>Resoconto ornitologico della provincia di Varese</em></strong>, oltre alla bibliografia dei lavori scientifici realizzati dai soci. Un patrimonio di conoscenze messo a disposizione di ricercatori, appassionati e di tutti gli interessati all'ornitologia.",
+    "tree": [
+      {
+        "slug": "quaderni",
+        "title": "Quaderni",
+        "type": "group",
+        "intro_text": "<p>I Quaderni del G.I.O. sono pubblicazioni scientifiche curate dai soci del Gruppo, nate con l'obiettivo di raccogliere e divulgare i risultati delle ricerche ornitologiche condotte sul territorio.<br>Si tratta di volumi cartacei che si possono ricevere tramite una donazione minima al G.I.O. OdV (gli importi sono comprensivi di eventuali spese di spedizione): le copie possono anche ritirate personalmente.<br><br>Per tutte le informazioni, le richieste per ricevere delle copie e le modalità di pagamento contattateci tramite il nostro <a href='/form' class='specific-link' target='_blank'>form di contatto</a>.</p><br><ul class='specific-list'><li><strong>Quaderno 4/2022</strong> <em>Gli Uccelli del Lago Maggiore</em>: <strong>&euro; 18</strong> cadauno</li></ul><p>Sempre disponibili anche gli altri Quaderni del G.I.O.:</p><ul class='specific-list'><li><strong>Quaderno 3/2018</strong> <em>Gli Uccelli del Lago Maggiore</em>: <strong>&euro; 15</strong> cadauno</li><li><strong>Quaderno 2/2015</strong> <em>Gli Uccelli del Lago Maggiore</em>: <strong>&euro; 8</strong> cadauno</li><li><strong>Quaderno 1/2012</strong> <em>Gli Uccelli del Lago Maggiore</em>: <strong>&euro; 5</strong> cadauno</li></ul><p><strong>Donazione minima per serie:</strong></p><ul class='specific-list'><li>Intera collana - Quaderni 1/2/3/4: <strong>&euro; 35</strong></li><li>Quaderni 1/2/4, oppure 1/3/4, oppure 2/3/4: <strong>&euro; 30</strong></li><li>Quaderni 1/2/3: <strong>&euro; 25</strong></li></ul><p><strong>Dati per bonifici:</strong><br>Gruppo Insubrico di Ornitologia<br>IBAN: IT13A0569650240000020568X10<br>Causale: NOME e COGNOME, donazione/Quaderno (specificare quale/quali) n° X copie</p></p>",
+        "intro_excerpt": "Studi monografici e approfondimenti tematici.",
+        "image_path": "/images/pubblicazioni/quaderni/martin-pescatore.webp",
+        "children": [
+          {
+            "slug": "quaderno-5-2026",
+            "title": "Quaderno 5/2026 - Rondoni",
+            "type": "detail",
+            "intro_excerpt": "I Rondoni.",
+            "image_path": "/images/pubblicazioni/quaderni/quaderno-5.webp",
+            "inner_pages": [
+              {
+                "id": 551,
+                "image_path": "/images/pubblicazioni/quaderni/quaderno-5/pagina-1.webp"
+              },
+              {
+                "id": 552,
+                "image_path": "/images/pubblicazioni/quaderni/quaderno-5/pagina-2.webp"
+              },
+              {
+                "id": 553,
+                "image_path": "/images/pubblicazioni/quaderni/quaderno-5/pagina-3.webp"
+              },
+              {
+                "id": 554,
+                "image_path": "/images/pubblicazioni/quaderni/quaderno-5/pagina-4.webp"
+              }
+            ],
+            "price": "",
+            "pdf_url": "",
+            "body": "<p>Ricerche, monitoraggio e conservazione delle colonie in otto province prealpine di Lombardia e Piemonte.<br><br>Il <strong>Quaderno 5 &quot;Rondoni&quot;</strong>, il quinto volume della collana &quot;Quaderni del G.I.O.&quot;, che il Gruppo Insubrico di Ornitologia sta realizzando insieme a <strong>LIPU OdV, CROS Varenna</strong> e <strong>Novara BW</strong>, è dedicato alla ricerca sulle <strong>tre specie di rondoni nidificanti</strong> nell'Italia settentrionale e alla loro ecologia urbana, Rondone comune, Rondone maggiore e Rondone pallido. Il volume raccoglierà i risultati di studi scientifici, proporrà linee guida per la conservazione delle specie e sarà arricchito da illustrazioni originali.<br><br>Scritto in italiano con riassunti in inglese, riccamente illustrato, sarà <strong>disponibile a breve</strong> per l'acquisto.<br>È possibile segnalare il proprio interesse all'acquisto tramite <a href='https://docs.google.com/forms/d/e/1FAIpQLSeJJ0iu3IVJoexE7LN3Z9vgVoCaBaQ152Otal_DTP7OGj2XBQ/viewform' class='specific-link' target='_blank'>questo link</a>:.</p>"
+          },
+          {
+            "slug": "quaderno-4-2022",
+            "title": "Quaderno 4/2022 - Uccelli del Lago Maggiore",
+            "type": "detail",
+            "intro_excerpt": "Gli uccelli del Lago Maggiore.",
+            "image_path": "/images/pubblicazioni/quaderni/quaderno-4.webp",
+            "inner_pages": [
+              {
+                "id": 541,
+                "image_path": "/images/pubblicazioni/quaderni/quaderno-4/pagina-1.webp"
+              },
+              {
+                "id": 542,
+                "image_path": "/images/pubblicazioni/quaderni/quaderno-4/pagina-2.webp"
+              },
+              {
+                "id": 543,
+                "image_path": "/images/pubblicazioni/quaderni/quaderno-4/pagina-3.webp"
+              },
+              {
+                "id": 544,
+                "image_path": "/images/pubblicazioni/quaderni/quaderno-4/pagina-4.webp"
+              }
+            ],
+            "price": "€ 18",
+            "pdf_url": "",
+            "body": "<p>Da Sud a Nord: le zone umide, le specie acquatiche, le ricerche (256 pagine).<br><br>Il <strong>quarto volume del Gruppo Insubrico di Ornitologia</strong>, intitolato &quot;UCCELLI del Lago Maggiore&quot;, rappresenta un'opera corale dedicata all'avifauna dell'intero bacino del Verbano. Superando i confini amministrativi, il progetto ha visto la collaborazione tra il G.I.O., partner svizzeri come <strong>Ficedula</strong>, la <strong>Fondazione Bolle di Magadino</strong> e la <strong>Riserva della Foce della Maggia</strong> e per la sponda piemontese è stato coinvolto l'<strong>Ente di gestione delle aree protette del Ticino e del Lago Maggiore</strong>.<br><br>Il risultato è un prestigioso trattato di divulgazione scientifica di 256 pagine, arricchito dai dati condivisi dai birdwatcher sul <strong>portale Ornitho</strong> e impreziosito da 260 fotografie, mappe e grafici dettagliati.<br><br>Il libro esplora la <strong>storia naturale del lago</strong>, analizzando le <strong>rotte migratorie</strong> tra Mediterraneo ed Europa e monitorando le specie acquatiche attraverso trentasette anni di <strong>censimenti IWC</strong>. Oltre a fornire indicazioni pratiche per il birdwatching nelle zone umide lombarde, piemontesi e ticinesi, il testo approfondisce ricerche recenti su specie iconiche come lo Smergo maggiore e la Rondine. Un tributo fondamentale alla biodiversità del Lago Maggiore, reso possibile dal lavoro appassionato di venti autori.</p>"
+          },
+          {
+            "slug": "quaderno-3-2018",
+            "title": "Quaderno 3/2018 - Storia naturale dei picchi",
+            "type": "detail",
+            "intro_excerpt": "La storia naturale dei picchi.",
+            "image_path": "/images/pubblicazioni/quaderni/quaderno-3.webp",
+            "inner_pages": [
+              {
+                "id": 531,
+                "image_path": "/images/pubblicazioni/quaderni/quaderno-3/pagina-1.webp"
+              },
+              {
+                "id": 532,
+                "image_path": "/images/pubblicazioni/quaderni/quaderno-3/pagina-2.webp"
+              },
+              {
+                "id": 533,
+                "image_path": "/images/pubblicazioni/quaderni/quaderno-3/pagina-3.webp"
+              },
+              {
+                "id": 534,
+                "image_path": "/images/pubblicazioni/quaderni/quaderno-3/pagina-4.webp"
+              }
+            ],
+            "price": "€ 15",
+            "pdf_url": "",
+            "body": "<p>in provincia di Varese (232 pagine)<br><br>Pubblicato nel dicembre 2018, il <strong>terzo Quaderno del G.I.O.</strong> conta 232 pagine dedicate all'affascinante <strong>mondo dei picidi</strong>. Il progetto, nato inizialmente per documentare una ricerca quinquennale sul Picchio nero in provincia di Varese, si è evoluto fino a includere tutte le cinque specie presenti sul territorio provinciale. L'opera offre una <strong>prospettiva multidisciplinare</strong>: dai capitoli sulla sistematica, anatomia e fisiologia, fino all'analisi delle vocalizzazioni supportata da innovativi sonogrammi consultabili online.<br><br>Un contributo fondamentale riguarda il ruolo dei picchi come preziosi indicatori biologici, fornendo linee guida per una <strong>gestione forestale</strong> attenta alla biodiversità. Ogni specie gode di un approfondimento su <strong>biologia, ecologia e conservazione</strong>, arricchito da oltre 150 fotografie, mappe e sintesi in inglese.<br><br>Realizzato grazie alla collaborazione gratuita di numerosi soci e amici, il volume ha beneficiato del sostegno economico della <strong>Fondazione Comunitaria del Varesotto</strong>, della <strong>Comunità Montana del Piambello</strong>, della <strong>Libera Associazione La Campagna di Germignaga</strong> e della sezione del <strong>Club Alpino Italiano di Luino</strong>.</p>"
+          },
+          {
+            "slug": "quaderno-2-2015",
+            "title": "Quaderno 2/2015 - Check-list degli uccelli della provincia di Varese",
+            "type": "detail",
+            "intro_excerpt": "La check-list degli uccelli della provincia di Varese.",
+            "image_path": "/images/pubblicazioni/quaderni/quaderno-2.webp",
+            "inner_pages": [
+              {
+                "id": 521,
+                "image_path": "/images/pubblicazioni/quaderni/quaderno-2/pagina-24.webp"
+              },
+              {
+                "id": 522,
+                "image_path": "/images/pubblicazioni/quaderni/quaderno-2/pagina-25.webp"
+              },
+              {
+                "id": 523,
+                "image_path": "/images/pubblicazioni/quaderni/quaderno-2/pagina-58.webp"
+              },
+              {
+                "id": 524,
+                "image_path": "/images/pubblicazioni/quaderni/quaderno-2/pagina-59.webp"
+              }
+            ],
+            "price": "€ 8",
+            "pdf_url": "",
+            "body": "<p>della PROVINCIA di VARESE (208 pagine).<br><br>Il <strong>Quaderno del G.I.O. n° 2/2015</strong>, intitolato &quot;Check-List degli UCCELLI della PROVINCIA di VARESE - Lista completa commentata e illustrata&quot; è stato curato da Roberto Aletti e Monica Carabella e si propone come un compendio corposo ma estremamente maneggevole, indispensabile per chiunque desideri approfondire la conoscenza del patrimonio naturale locale. Il manuale analizza dettagliatamente la distribuzione, la stagionalità e il grado di rarità delle <strong>327 specie documentate</strong> sul territorio varesino.<br><br>L'opera raccoglie informazioni originali che spaziano dai dati storici fino ai giorni nostri, con un aggiornamento scientifico al 31 dicembre 2013. In 208 pagine arricchite da oltre 100 fotografie di uccelli e habitat, il cuore del libro è rappresentato dalle <strong>schede informative</strong> per ogni singola specie.<br><br>Oltre alla lista sistematica, il ricco sommario offre <strong>approfondimenti</strong> su molteplici aspetti dell'ornitologia moderna, rendendo il volume un riferimento essenziale per la ricerca e la conservazione.</p>"
+          },
+          {
+            "slug": "quaderno-1-2012",
+            "title": "Quaderno 1/2012 - Uccelli acquatici svernanti",
+            "type": "detail",
+            "intro_excerpt": "Le specie acquatiche svernanti.",
+            "image_path": "/images/pubblicazioni/quaderni/quaderno-1.webp",
+            "inner_pages": [
+              {
+                "id": 511,
+                "image_path": "/images/pubblicazioni/quaderni/quaderno-1/pagina-12.webp"
+              },
+              {
+                "id": 512,
+                "image_path": "/images/pubblicazioni/quaderni/quaderno-1/pagina-13.webp"
+              },
+              {
+                "id": 513,
+                "image_path": "/images/pubblicazioni/quaderni/quaderno-1/pagina-62.webp"
+              },
+              {
+                "id": 514,
+                "image_path": "/images/pubblicazioni/quaderni/quaderno-1/pagina-63.webp"
+              }
+            ],
+            "price": "€ 5",
+            "pdf_url": "",
+            "body": "<p>25 anni di dati in provincia di Varese (128 pagine).<br><br>Il primo <strong>Quaderno del G.I.O.</strong> è un manuale scientifico-divulgativo di 128 pagine dedicato all'avifauna acquatica della provincia di Varese, basato sui censimenti internazionali IWC effettuati tra il 1986 e il 2010.<br><br>Il volume ripercorre la storia dei rilevamenti in Europa e Italia, offrendo una panoramica degli specchi d'acqua locali. Il cuore dell'opera è l'analisi di <strong>48 specie</strong> (appartenenti a 10 famiglie, tra cui Anatidi, Ardeidi e Laridi), descritte attraverso schede dettagliate su distribuzione, conservazione e dati numerici invernali.<br><br>Grazie a grafici e fotografie, il testo documenta l'evoluzione delle popolazioni svernanti in <strong>venticinque anni</strong>, evidenziando gli effetti dei cambiamenti climatici, come l'aumento dello Smergo maggiore e dell'Airone cenerino.<br><br>Realizzato su carta riciclata, il progetto è stato sostenuto dalla <strong>Provincia di Varese</strong> e dalla <strong>LIPU</strong>, avvalendosi del contributo di numerosi fotografi naturalisti.</p>"
+          }
+        ]
+      },
+      {
+        "slug": "bol",
+        "title": "BOL",
+        "type": "pdf-list",
+        "group_by_year": true,
+        "intro_text": "<p>Questa pubblicazione, esclusivamente online, nasce dall'incontro avvenuto nel settembre 2018 tra un numeroso gruppo di ornitologi e naturalisti lombardi, attivi da molti anni sul campo sia come volontari sia come professionisti.<br><br>Durante la riunione di settembre, organizzata presso il Museo Caffi di Bergamo grazie alla disponibilità del Direttore, dott. Marco Valle, sono state gettate le basi di questo progetto. L'idea è nata da una semplice considerazione: la necessità di disporre di un “bollettino” di facile consultazione, accessibile online a tutti gli interessati, capace di raccogliere contributi di carattere faunistico riferiti principalmente alla Lombardia, ma con uno sguardo esteso anche all'Italia settentrionale.<br>Il Bollettino si è proposto di accogliere quei lavori che difficilmente trovano spazio nelle riviste nazionali, generalmente orientate verso progetti di più ampio respiro.<br><br>Considerata l'enorme quantità di dati condivisi su piattaforme come Ornitho.it, è emersa con evidenza l'esigenza di elaborare e diffondere sintesi riguardanti aspetti quali la fenologia, la distribuzione geografica e la selezione dell'habitat delle specie, oltre alla necessità di aggiornare costantemente le conoscenze sull'avifauna legata alle aree protette: riserve naturali, parchi regionali, PLIS e, in particolare, la Rete Natura 2000.<br><br>Un elemento fondamentale di questa iniziativa è stato il tentativo di riunire, attorno a un progetto comune, i numerosi gruppi - per lo più amatoriali - attivi nelle diverse province lombarde, finora privi di un coordinamento diretto e di una rappresentanza condivisa. Su proposta di Pierandrea Brichetti, già durante l'incontro del settembre 2018 è stato costituito un primo coordinamento tra gruppi, composto da sei realtà provinciali. Tale struttura è stata aperta a tutti coloro che desideravano aderire, contribuendo attivamente al progetto. Ogni gruppo è stato rappresentato all'interno del Bollettino da un referente, incaricato di raccogliere materiale da pubblicare e di proporre eventuali attività di censimento o monitoraggio su scala regionale o pluriprovinciale.<br><br>Il Bollettino Ornitologico Lombardo è stato pubblicato sulla piattaforma Ornitho.it grazie al supporto di Roberto Lardelli e del Gruppo di Conduzione. Questa collaborazione ha consentito di ampliare la diffusione dei contenuti anche oltre il contesto regionale.<br>L'obiettivo principale della pubblicazione è stato contribuire all'ampliamento delle conoscenze in un periodo caratterizzato da profondi cambiamenti e crescenti minacce agli ecosistemi.<br><br>I contributi sono stati inviati esclusivamente in formato elettronico via e-mail alla redazione, che ne ha valutato la pubblicazione secondo l'ordine cronologico di ricezione. Sono stati presi in considerazione diversi tipi di lavori, tra cui: articoli scientifici, brevi note, report di monitoraggi e censimenti, presentazioni di tesi, reportage fotografici, notizie, revisioni, recensioni librarie, resoconti di campagne di inanellamento, checklist locali, proposte di studio e altri contributi, purché redatti in lingua italiana.</p>",
+        "intro_excerpt": "Il bollettino periodico delle osservazioni.",
+        "header_image": "/images/pubblicazioni/bol/bol.webp",
+        "image_path": "/images/pubblicazioni/bol/frosone.webp",
+        "items": [
+          {
+            "id": 10,
+            "year": 2019,
+            "title": "Volume 1 Numero 1",
+            "pdf_url": "/documents/pubblicazioni/bol/2019/bol-v1-n1.pdf"
+          },
+          {
+            "id": 11,
+            "year": 2019,
+            "title": "Volume 1 Numero 2",
+            "pdf_url": "/documents/pubblicazioni/bol/2019/bol-v1-n2.pdf"
+          },
+          {
+            "id": 12,
+            "year": 2020,
+            "title": "Volume 2 Numero 1",
+            "pdf_url": "/documents/pubblicazioni/bol/2020/bol-v2-n1.pdf"
+          },
+          {
+            "id": 13,
+            "year": 2020,
+            "title": "Volume 2 Numero 2",
+            "pdf_url": "/documents/pubblicazioni/bol/2020/bol-v2-n2.pdf"
+          },
+          {
+            "id": 14,
+            "year": 2021,
+            "title": "Volume 3 Numero 1",
+            "pdf_url": "/documents/pubblicazioni/bol/2021/bol-v3-n1.pdf"
+          },
+          {
+            "id": 15,
+            "year": 2021,
+            "title": "Volume 3 Numero 2",
+            "pdf_url": "/documents/pubblicazioni/bol/2021/bol-v3-n2.pdf"
+          },
+          {
+            "id": 16,
+            "year": 2022,
+            "title": "Volume 4 Numero 1",
+            "pdf_url": "/documents/pubblicazioni/bol/2022/bol-v4-n1.pdf"
+          },
+          {
+            "id": 17,
+            "year": 2022,
+            "title": "Volume 4 Numero 2",
+            "pdf_url": "/documents/pubblicazioni/bol/2022/bol-v4-n2.pdf"
+          },
+          {
+            "id": 18,
+            "year": 2023,
+            "title": "Volume 5 Numero 1",
+            "pdf_url": "/documents/pubblicazioni/bol/2023/bol-v5-n1.pdf"
+          },
+          {
+            "id": 19,
+            "year": 2023,
+            "title": "Volume 5 Numero 2",
+            "pdf_url": "/documents/pubblicazioni/bol/2023/bol-v5-n2.pdf"
+          },
+          {
+            "id": 111,
+            "year": 2024,
+            "title": "Volume 6 Numero 1",
+            "pdf_url": "/documents/pubblicazioni/bol/2024/bol-v6-n1.pdf"
+          },
+          {
+            "id": 121,
+            "year": 2024,
+            "title": "Volume 6 Numero 2",
+            "pdf_url": "/documents/pubblicazioni/bol/2024/bol-v6-n2.pdf"
+          },
+          {
+            "id": 131,
+            "year": 2025,
+            "title": "Volume 7 Numero 1",
+            "pdf_url": "/documents/pubblicazioni/bol/2025/bol-v7-n1.pdf"
+          }
+        ]
+      },
+      {
+        "slug": "altre-pubblicazioni",
+        "title": "Altre Pubblicazioni",
+        "type": "bibliography",
+        "items_per_page": 10,
+        "intro_text": "<p>Qui è possibile consultare tutti i risultati delle nostre ricerche, sia quelle in corso sia quelle terminate.</p>",
+        "second_intro_text": "Bibliografia del G.I.O.",
+        "intro_excerpt": "Articoli scientifici e riferimenti bibliografici.",
+        "image_path": "/images/pubblicazioni/paper/porciglione.webp",
+        "items": [
+          {
+            "id": 20,
+            "text": "Alberti P., Carabella M., Colaone S., Danini G., Saporetti F., Scandolara C., 2003. L'avifauna nidificante nelle brughiere della Lombardia occidentale. RIO, 72 (2): 269-271.",
+            "pdf_url": "/documents/progetti/2003-avifauna-brughiere-lombardia-occidentale.pdf"
+          },
+          {
+            "id": 21,
+            "text": "Aletti R., 2018. Avifauna insubrica. Osservazioni ornitologiche di particolare interesse effettuate in provincia di Varese nell’anno 2017. Relazione tecnica.",
+            "pdf_url": "/documents/pubblicazioni/resoconti/resoconto-2017.pdf"
+          },
+          {
+            "id": 22,
+            "text": "Aletti R., 2019. Resoconto ornitologico provincia di Varese anno 2018. Osservazioni ornitologiche di particolare interesse effettuate in provincia di Varese nell'anno 2018. Relazione tecnica.",
+            "pdf_url": "/documents/pubblicazioni/resoconti/resoconto-2018.pdf"
+          },
+          {
+            "id": 23,
+            "text": "Aletti R., Saporetti F., 2020. I limicoli (ordine Charadriiformes) della provincia di Varese. B.O.L. Vol. 2 - n. 2 - 2020 (71-118).",
+            "pdf_url": "/documents/progetti/2020-limicoli.pdf"
+          },
+          {
+            "id": 24,
+            "text": "Aletti R., 2020. Resoconto ornitologico provincia di Varese anno III. Osservazioni ornitologiche di particolare interesse effettuate in provincia di Varese nell'anno 2019. Relazione tecnica.",
+            "pdf_url": "/documents/pubblicazioni/resoconti/resoconto-2019.pdf"
+          },
+          {
+            "id": 25,
+            "text": "Aletti R., 2021. Resoconto ornitologico provincia di Varese anno IV. Osservazioni ornitologiche di particolare interesse effettuate in provincia di Varese nell'anno 2020. Relazione tecnica.",
+            "pdf_url": "/documents/pubblicazioni/resoconti/resoconto-2020.pdf"
+          },
+          {
+            "id": 26,
+            "text": "Aletti R., 2021. Lista degli uccelli della provincia di Varese aggiornata al 2020. Relazione tecnica."
+          },
+          {
+            "id": 27,
+            "text": "Aletti R., 2022. Analisi dell'avifauna nidificante in provincia di Varese al 31/12/2021. B.O.L. Vol. 4 - n. 2 - 2022 (94-107).",
+            "pdf_url": "/documents/progetti/2022-analisi-varese.pdf"
+          },
+          {
+            "id": 28,
+            "text": "Aletti R., Brichetti P., Gargioni A., Grattini N., 2022. Check-list degli uccelli della Lombardia aggiornata al dicembre 2021. B.O.L. Vol. 4 - n. 1 - 2022 (3-32).",
+            "pdf_url": "/documents/progetti/2022-check-list-uccelli.pdf"
+          },
+          {
+            "id": 29,
+            "text": "Aletti R., Saporetti F., Taverna G., 2022. Prima nidificazione di Volpoca (Tadorna tadorna) in Lombardia: un caso accertato in provincia di Varese. B.O.L. Vol. 4 - n. 2 - 2022 (121-124).",
+            "pdf_url": "/documents/progetti/2022-nidificazione-volpoca.pdf"
+          },
+          {
+            "id": 211,
+            "text": "Aletti R., 2022. Resoconto ornitologico provincia di Varese anno V. Osservazioni ornitologiche di particolare interesse effettuate in provincia di Varese nell'anno 2021. Relazione tecnica.",
+            "pdf_url": "/documents/pubblicazioni/resoconti/resoconto-2021.pdf"
+          },
+          {
+            "id": 212,
+            "text": "Aletti R., Carabella M., Saporetti F., Guenzani W., 2023. UI-VA: Birds in winter Varese 2018-2023. Poster XXI Convegno Italiano di Ornitologia. Varese 05-09 settembre 2023.",
+            "pdf_url": "/documents/progetti/2023-uiva.pdf"
+          },
+          {
+            "id": 213,
+            "text": "Aletti R., 2023. Resoconto ornitologico provincia di Varese anno VI. Osservazioni ornitologiche di particolare interesse effettuate in provincia di Varese nell'anno 2022. Relazione tecnica.",
+            "pdf_url": "/documents/pubblicazioni/resoconti/resoconto-2022.pdf"
+          },
+          {
+            "id": 214,
+            "text": "Aletti R., 2024. Resoconto ornitologico provincia di Varese anno VII. Osservazioni ornitologiche di particolare interesse effettuate in provincia di Varese nell'anno 2023. Relazione tecnica.",
+            "pdf_url": "/documents/pubblicazioni/resoconti/resoconto-2023.pdf"
+          },
+          {
+            "id": 215,
+            "text": "Aletti R., Giussani L., Saporetti F., 2025. Resoconto ornitologico provincia di Varese anno VIII. Osservazioni ornitologiche di particolare interesse effettuate in provincia di Varese nell'anno 2024. Relazione tecnica.",
+            "pdf_url": "/documents/pubblicazioni/resoconti/resoconto-2024.pdf"
+          },
+          {
+            "id": 216,
+            "text": "Aletti R., Giussani L., Saporetti F., 2026. Resoconto ornitologico provincia di Varese anno IX. Osservazioni ornitologiche di particolare interesse effettuate in provincia di Varese nell'anno 2025. Relazione tecnica.",
+            "pdf_url": "/documents/pubblicazioni/resoconti/resoconto-2025.pdf"
+          },
+          {
+            "id": 217,
+            "text": "Barattieri M., Saporetti F., Gianatti G., Viganò E., 2023. What is the future for farmland birds in North-Western Lombardy? Poster XXI Convegno Italiano di Ornitologia. Varese 05-09 settembre 2023.",
+            "pdf_url": "/documents/progetti/2023-future-farmland.pdf"
+          },
+          {
+            "id": 218,
+            "text": "Berlusconi A., Martinoli A., Wauters L. A., Tesoro G., Martini S., Clerici E., Guenzani G., Pozzi G., Rubolini D., Morganti M., Martinoli A., 2022. Year-round multi-scale habitat selection by Crested Tit (Lophophanes cristatus) in lowland mixed forests (northern Italy). Avian Research Vol. 13 pp. 7.",
+            "pdf_url": "/documents/progetti/2022-year-round.pdf"
+          },
+          {
+            "id": 219,
+            "text": "Boano G., Casola D., Cucco M., Ferri M., Micheloni P., Manica M., Pellegrino I., 2022. Onset of primary moult in immature and breeding adult Common Swifts Apus apus. Ringing & Migration pp. 7.",
+            "pdf_url": "/documents/progetti/swift/2022-onset-moult.pdf"
+          },
+          {
+            "id": 220,
+            "text": "Bordignon L., Carabella M., Guenzani W., Guerrini M., Grattini N., Lardelli R., Pedrini P., Piotti G., Pistono C., Saporetti F., Sighele M., Tosi A., Viganò E., Volcan G., 2018. The Goosander Mergus merganser breeding population expansion and trend in north-western Italy. Avocetta - Volume 42 pp. 8.",
+            "pdf_url": "/documents/progetti/2018-goosander.pdf"
+          },
+          {
+            "id": 221,
+            "text": "Carabella M., 2020. Recensione The Birds of Italy, Pierandrea Brichetti & Giancarlo Fracasso. B.O.L. Vol. 2 - n. 2 - 2020 (173-178).",
+            "pdf_url": "/documents/progetti/2020-recensione-birds-of-italy.pdf"
+          },
+          {
+            "id": 222,
+            "text": "Carabella M., Pianezza F., D'Orazio L., Saporetti F., Vaghi M., 2023. Primo tentativo di nidificazione di Nibbio reale (Milvus milvus) in provincia di Varese. B.O.L. Vol. 5 - n. 1 - 2023 (32-38).",
+            "pdf_url": "/documents/progetti/2023-nibbio-reale.pdf"
+          },
+          {
+            "id": 223,
+            "text": "Casola D., Manica M., Morganti M., 2023. Site and nest fidelity in the Common Swift (Apus apus). Poster XXI Convegno Italiano di Ornitologia. Varese 05-09 settembre 2023.",
+            "pdf_url": "/documents/progetti/swift/2023-site-nest.pdf"
+          },
+          {
+            "id": 224,
+            "text": "Casola D., Colombo L., Stocchetti A., Manica M., 2022. Passeraie e rondonaie in provincia di Varese: censimento, rivalutazione ed utilizzo per conservazione e studio delle specie sinantropiche. B.O.L. vol. 4 - n. 2 - 2022 (125-152).",
+            "pdf_url": "/documents/progetti/swift/2022-passeraie-rondonaie.pdf"
+          },
+          {
+            "id": 225,
+            "text": "Casola D., Colombo L., Stocchetti A., Papale G., Manica M., 2023. Swift and Sparrow towers in the Province of Varese: census, evaluation and use in the conservation and study of synanthropic species. Poster XXI Convegno Italiano di Ornitologia. Varese 05-09 settembre 2023.",
+            "pdf_url": "/documents/progetti/swift/2023-towers-varese.pdf"
+          },
+          {
+            "id": 226,
+            "text": "Colaone S., Fanchin B., Giusto A., Guenzani W., Saporetti F., Zarbo T., 2012. Censimento al playback di una popolazione di Civetta, Athene noctua, in provincia di Varese. RIO, 80 (2): 79-85.",
+            "pdf_url": "/documents/progetti/2012-censimento-al-playback.pdf"
+          },
+          {
+            "id": 227,
+            "text": "Colombo L., Manica M., Giussani L., 2020. Roost di Nibbio bruno (Milvus migrans) in provincia di Varese: osservazioni preliminari (2019-2020), considerazioni e possibili sviluppi di indagine. B.O.L. Vol. 2 - n. 2 - 2020 (139-154).",
+            "pdf_url": "/documents/progetti/2020-nibbio-bruno.pdf"
+          },
+          {
+            "id": 228,
+            "text": "Colombo L., Bressan P., Manica M., Aletti R., Guenzani W., Giussani L., 2021. Il Gufo reale Bubo bubo in provincia di Varese: dati storici e ricerche recenti. B.O.L. Vol. 3 - n. 2 - 2021 (86-100).",
+            "pdf_url": "/documents/progetti/2021-gufo-reale.pdf"
+          },
+          {
+            "id": 229,
+            "text": "Colombo L., Casola D., Stocchetti A., Ricci M., Rigamonti E., Manica M., 2024. Swift and sparrow towers in the provinces of Novara and Varese: census and evaluation for swift's conservation. Poster 7th International Swift Conference. Trieste 29-31 maggio 2024.",
+            "pdf_url": "/documents/progetti/swift/2024-towers.pdf"
+          },
+          {
+            "id": 230,
+            "text": "Costanzo A., Ambrosini R., Manica M., Casola D., Polidori C., Gianotti V., Conterosito E., Roncoli M., Parolini M., De Felice B., 2024. Microfibers in the Diet of a Highly Aerial Bird, the Common Swift Apus apus. Toxics 12, 408 pp. 11.",
+            "pdf_url": "/documents/progetti/swift/2024-microfibers.pdf"
+          },
+          {
+            "id": 231,
+            "text": "Gagliardi A., Preatoni D., Saporetti F., Tosi G., 2013. Boschi non gestiti e comunità ornitica: un caso di studio in provincia di Varese. RIO, 82 (1-2): 125-127.",
+            "pdf_url": "/documents/progetti/2013-boschi-non-gestiti.pdf"
+          },
+          {
+            "id": 232,
+            "text": "Grattini N., Aletti R., Carabella M., Guenzani W., Longoni V., Saporetti F., 2025. Trends of waterbirds wintering on the lakes of Lombardy: twenty years of International Waterbirds Census. Poster XXII Convegno Italiano di Ornitologia. Lecce 08-12 settembre 2025.",
+            "pdf_url": "/documents/progetti/iwc/20-anni-di-iwc.pdf"
+          },
+          {
+            "id": 233,
+            "text": "Guenzani W., Aletti R., Giussani L., 2020. Nidificazione della Colombella (Columba oenas) in provincia di Varese. B.O.L. Vol. 2 - n. 2 - 2020 (135-138).",
+            "pdf_url": "/documents/progetti/2020-nidificazione-colombella.pdf"
+          },
+          {
+            "id": 234,
+            "text": "Manica M., Morganti M., Casola D., Bazzarelli M., Bogliani G., 2019. Studio preliminare della fenologia e del successo riproduttivo in una colonia di rondone comune (Apus apus) a Jerago con Orago (VA). Poster XX Convegno Italiano di Ornitologia. Napoli 26-29 settembre 2019.",
+            "pdf_url": "/documents/progetti/swift/2019-fenologia.pdf"
+          },
+          {
+            "id": 235,
+            "text": "Manica M., Casola D., Stocchetti A., Bazzarelli M., Biganzoli D., Morganti M., 2022. Breeding phenology, reproductive success and survival of Common Swift (Apus apus) from a Northern Italian colony. Poster XXIII EOU Conference. Gießen Germany 14-18 marzo 2022.",
+            "pdf_url": "/documents/progetti/swift/2022-breeding-phenology.pdf"
+          },
+          {
+            "id": 236,
+            "text": "Manica M., Casola D., Colombo L., Stocchetti A., Cavallaro C., Villa S., Morganti M., Parnell A., 2022. Birds towers and walls: three successful examples of rehabilitation in province of Varese, Italy. Poster 6th International Swift Conference. Segovia Spain 25-27 maggio 2022.",
+            "pdf_url": "/documents/progetti/swift/2022-birds-towers.pdf"
+          },
+          {
+            "id": 237,
+            "text": "Manica M., Nembrini S., Casola D., Stocchetti A., Colombo L., Parnell A., Bazzarelli M., Zulian G., Iadanza C., Milani R., Ambrosini R., Cavallaro C., Guenzani W., Villa S., 2022. Which urban habitats are selected by Swifts? A citizen science program to answer the question in provinces of Varese and Bergamo, Italy. Presentation 6th International Swift Conference. Segovia Spain 25-27 maggio 2022.",
+            "pdf_url": "/documents/progetti/swift/2022-urban-habits.pdf"
+          },
+          {
+            "id": 238,
+            "text": "Manica M., Nembrini S., Casola D., Stocchetti A., Colombo L., Parnell A., Bazzarelli M., Zulian G., Iadanza C., Milani R., Ambrosini R., 2023. Swifts and the selection of urban habitats: a citizen science project to increase the ecological knowledge of the species in the Bergamo and Varese provinces. Poster XXI Convegno Italiano di Ornitologia. Varese 05-09 settembre 2023.",
+            "pdf_url": "/documents/progetti/swift/2023-urban-habits.pdf"
+          },
+          {
+            "id": 239,
+            "text": "Manica M., Casola D., Colombo L., Stocchetti Al., Wild T., Witte K., Fiedler W., Wikelski M., Papale G., Iadanza C., Cervellin I., Figus E., Morganti M., 2024. Swift towers as open research lab: the experience of a network of nesting sites in NW Italy. Poster 7th International Swift Conference. Trieste 29-31 maggio 2024.",
+            "pdf_url": "/documents/progetti/swift/2024-swift-towers.pdf"
+          },
+          {
+            "id": 240,
+            "text": "Manica M., Casola D., Nembrini S., Pirotta G., Ricci M., Morganti M., 2026. A new book about Swifts that breed in Italy. Poster 8th International Swift Conference. Co. Mayo Ireland 27-29 maggio 2026.",
+            "pdf_url": "/documents/progetti/swift/2026-new-book.pdf"
+          },
+          {
+            "id": 241,
+            "text": "Morganti M., Manica M., Casola D., Colombo L., Stocchetti A., Fiedler W., Wikelski M., Witte K., Wild T., 2024. First deployment of IoT tracking devices on Common swift Apus apus: a pilot study. Avocetta, Vol. 48 pp. 13.",
+            "pdf_url": "/documents/progetti/swift/2024-apus.pdf"
+          },
+          {
+            "id": 268,
+            "text": "Ravasi A., Guenzani W., 2014. Prima nidificazione accertata di assiolo Otus scops in provincia di Varese. RIO, 84 (1): 53-55.",
+            "pdf_url": "/documents/progetti/2014-nidificazione-assiolo.pdf"
+          },
+          {
+            "id": 242,
+            "text": "Ricci M., Rigamonti E., Casola D., Colombo L., Stocchetti A., Papale G., Morganti M., Manica M., 2025. Passeraie, colombaie e rondonaie nelle province di Novara e Varese: mappa e monitoraggi per conservare storia e biodiversità. Picus 51 (99-100): 3-12.",
+            "pdf_url": "/documents/progetti/swift/2025-passeraie-colombaie-rondonaie.pdf"
+          },
+          {
+            "id": 243,
+            "text": "Sacchet J., Giussani L., Berlusconi A., 2025. Campi di Brebbia (Varese, Italy): a crucial stopover and wintering site for birds. Poster XXII Convegno Italiano di Ornitologia. Lecce 08-12 settembre 2025.",
+            "pdf_url": "/documents/progetti/campi-di-brebbia/2025-campi-brebbia.pdf"
+          },
+          {
+            "id": 244,
+            "text": "Saporetti F., 2001. L'avifauna nidificante nelle zone umide della provincia di Varese: status delle specie e grado di conservazione dei biotipi. Bollettino della Società ticinese di scienze naturali 89, 2001 (1-2), pp. 41-50.",
+            "pdf_url": "/documents/progetti/2001-avifauna-zone-umide.pdf"
+          },
+          {
+            "id": 245,
+            "text": "Saporetti F., Guenzani W., 2004. La comunità ornitica delle formazioni forestali ad Alno-Ulmion e Salicion Albae: analisi di alcune aree-campione in provincia di Varese (Lombardia). Bollettino della Società ticinese di scienze naturali 92, 2004 (1-2), pp. 109-118.",
+            "pdf_url": "/documents/progetti/2004-comunita-ornitica.pdf"
+          },
+          {
+            "id": 246,
+            "text": "Saporetti F., 2010. Il monitoraggio del Falco pecchiaiolo, Pernis apivorus, e del Succiacapre, Caprimulgus europaeus, nel SIC IT2020007 “Pineta Pedemontana di Appiano Gentile VA - CO. Relazione tecnica.",
+            "pdf_url": "/documents/progetti/2010-falco-pecchiaiolo.pdf"
+          },
+          {
+            "id": 247,
+            "text": "Saporetti F., 2012. I Passeriformi (Passeriformes) degli ambienti aperti come indicatori della successione ecologica nel SIC Val Veddasca (Lombardia, Italia). Bollettino della Società ticinese di scienze naturali 100, pp. 79-88.",
+            "pdf_url": "/documents/progetti/2012-passeriformi.pdf"
+          },
+          {
+            "id": 248,
+            "text": "Saporetti F. , 2014. Monitoraggio dell'avifauna nella ZPS IT2010502 “Canneti del Lago Maggiore”. Sintesi dei risultati al 31-12-2013. Relazione tecnica.",
+            "pdf_url": "/documents/progetti/2014-risultati-2013.pdf"
+          },
+          {
+            "id": 249,
+            "text": "Saporetti F., 2015. Risultati al 31-12-2014 del monitoraggio dell'avifauna nella ZPS IT2010502 “Canneti del Lago Maggiore”. Relazione tecnica.",
+            "pdf_url": "/documents/progetti/2015-rilevamenti-2014.pdf"
+          },
+          {
+            "id": 250,
+            "text": "Saporetti F., 2015. Avifauna acquatica ZPS IT2010502 “Canneti del Lago Maggiore”. Sintesi intermedia dei rilevamenti al 31-08-2015. Relazione tecnica.",
+            "pdf_url": "/documents/progetti/2015-rilevamenti.pdf"
+          },
+          {
+            "id": 251,
+            "text": "Saporetti F., Colaone S., Guenzani W., Zarbo T., 2016. Nest-site characteristics and breeding biology of the Black Woodpecker in north-western Lombardy, Italy. RIO, 86 (1): 39-48.",
+            "pdf_url": "/documents/progetti/2016-picchio-nero.pdf"
+          },
+          {
+            "id": 252,
+            "text": "Saporetti F., 2017. L'avifauna acquatica della ZPS IT2010502 “Canneti del Lago Maggiore”. Risultati del monitoraggio 2016. Relazione tecnica.",
+            "pdf_url": "/documents/progetti/2017-monitoraggio-2016.pdf"
+          },
+          {
+            "id": 253,
+            "text": "Saporetti F., Aletti R., Carabella M., Guenzani W., 2017. Le specie allegato I (Direttiva Uccelli 2009/147/CEE) dell'avifauna acquatica ZPS IT2010502 “Canneti del Lago Maggiore“. Poster XIX Convegno Italiano di Ornitologia. Torino 27 settembre - 01 ottobre 2017.",
+            "pdf_url": "/documents/progetti/2017-specie.pdf"
+          },
+          {
+            "id": 254,
+            "text": "Saporetti F., Guenzani W., 2017. Due laghi, Verbano e Lario, a confronto. 15 anni di International Waterbird Census. Poster XIX Convegno Italiano di Ornitologia. Torino 27 settembre - 01 ottobre 2017.",
+            "pdf_url": "/documents/progetti/iwc/15-anni-di-iwc.pdf"
+          },
+          {
+            "id": 255,
+            "text": "Saporetti F., 2017. Il ruolo delle zone umide della Regione Lombardia durante la migrazione dei limicoli: un'analisi per il genere Tringa ricavata dal portale www.ornitho.it. RIO, 87, (2): 15-28.",
+            "pdf_url": "/documents/progetti/2017-zone-umide-limicoli.pdf"
+          },
+          {
+            "id": 256,
+            "text": "Saporetti F., 2018. L'avifauna acquatica della ZPS IT2010502 “Canneti del Lago Maggiore”. Risultati del monitoraggio 2015-2017. Relazione tecnica.",
+            "pdf_url": "/documents/progetti/2018-avifauna-acquatica.pdf"
+          },
+          {
+            "id": 257,
+            "text": "Saporetti F., 2019. I Limicoli della foce del fiume Tresa. Relazione tecnica.",
+            "pdf_url": "/documents/progetti/2019-limicoli-fiume-tresa.pdf"
+          },
+          {
+            "id": 258,
+            "text": "Saporetti F., Casale F., 2020. Il Succiacapre nella regione insubrica. Ficedula 53: 16-20.",
+            "pdf_url": "/documents/progetti/2020-succiacapre-insubria.pdf"
+          },
+          {
+            "id": 259,
+            "text": "Saporetti F., Carabella M., Castiglioni A., Colombo L., Dall’Osto D., Guenzani W., Larroux N., Zarbo T., Berlusconi A., 2021. Avifauna urbana: un'esperienza positiva in un contesto negativo. Visti da casa nel 2020. B.O.L. Vol. 3 - n. 1 - 2021 (41-55).",
+            "pdf_url": "/documents/progetti/2021-avifauna-urbana.pdf"
+          },
+          {
+            "id": 260,
+            "text": "Saporetti F., 2022. Steady turnover in a bird community in a periurban landscape in northern Italy: a look at the change in species richness over time. RIO, 92, (2): 39-48.",
+            "pdf_url": "/documents/progetti/2022-steady-turnover.pdf"
+          },
+          {
+            "id": 261,
+            "text": "Saporetti F., Gargioni A., Grattini N., 2022. La migrazione primaverile del Nibbio bruno (Milvus migrans) in Lombardia in riferimento alla data di primo arrivo. B.O.L. Vol. 4 - n. 1 - 2022 (68-76).",
+            "pdf_url": "/documents/progetti/2022-migrazione-primaverile.pdf"
+          },
+          {
+            "id": 262,
+            "text": "Saporetti F., Aletti R., 2023. From wintering to breeding: the bird diversity of the SPA IT2010501 “Lago di Varese”. Presentazione XXI Convegno Italiano di Ornitologia. Varese 05-09 settembre 2023.",
+            "pdf_url": "/documents/progetti/2023-wintering-breeding.pdf"
+          },
+          {
+            "id": 263,
+            "text": "Saporetti F., Aletti R., 2024. L'avifauna acquatica della Zona di Protezione Speciale “Lago di Varese” (Lombardia). B.O.L. Vol. 6 - n. 2 - 2024 (4-76).",
+            "pdf_url": "/documents/progetti/2024-lago-di-varese.pdf"
+          },
+          {
+            "id": 264,
+            "text": "Saporetti F., Barattieri M., Gianatti G., Viganò E., 2024. Il monitoraggio dell'avifauna degli agro-ecosistemi nella Lombardia nord-occidentale. B.O.L. Vol. 6 - n. 1 - 2024 (22-59).",
+            "pdf_url": "/documents/progetti/2024-monitoraggio-avifauna.pdf"
+          },
+          {
+            "id": 265,
+            "text": "Saporetti F., 2026. La foce Tresa: un punto caldo della migrazione del lago Maggiore. Relazione tecnica.",
+            "pdf_url": "/documents/progetti/2026-foce-tresa.pdf"
+          },
+          {
+            "id": 266,
+            "text": "Zanchin E., Belloni G., Sacchet J., Bonvissuto N., Berlusconi A., Manica M., Casola D., 2025. Phenology and nest site fidelity in three Swift towers in the Lombardy region. Poster XXII Convegno Italiano di Ornitologia. Lecce 08-12 settembre 2025.",
+            "pdf_url": "/documents/progetti/swift/2025-phenology.pdf"
+          },
+          {
+            "id": 267,
+            "text": "Zanchin E., 2026. Demographic changes in three Common Swift colonies in the Lombardy region, Italy. Presentation 8th International Swift Conference. Co. Mayo Ireland 27-29 maggio 2026.",
+            "pdf_url": "/documents/progetti/swift/2026-demographic-change.pdf"
+          }
+        ]
+      },
+      {
+        "slug": "uccelli-varese",
+        "title": "Gli Uccelli della Provincia di Varese",
+        "type": "group",
+        "intro_text": "<p>Liste sistematiche e racconti ornitologici che documentano le osservazioni sul territorio nel corso degli anni.</p>",
+        "intro_excerpt": "Liste sistematiche e racconti ornitologici.",
+        "image_path": "/images/pubblicazioni/liste/voltapietre.webp",
+        "children": [
+          {
+            "slug": "check-list-provinciale",
+            "title": "Check-list Provinciale",
+            "type": "pdf-list",
+            "intro_text": "<p>Questa pubblicazione rende disponibile un elenco documentato relativo a tutte le specie di uccelli osservati e segnalati in provincia di Varese, con <strong>aggiornamenti alla data del 31/12/2020</strong>.<br><br>Questa ricerca è stata effettuata attraverso la consultazione di numerose fonti bibliografiche, siti e piattaforme di associazioni ornitologiche e di birdwatching, con lo scopo di individuare tutte le osservazioni relative a presenza, nidificazione e svernamento, e conseguentemente assegnare i caratteri fenologici ad ogni singola specie, oltre ad alcuni altri campi o annotazioni di particolare rilevanza ornitologica.</p>",
+            "intro_excerpt": "Liste sistematiche delle specie osservate.",
+            "image_path": "/images/pubblicazioni/liste/lista-uccelli/picchio-muraiolo.webp",
+            "items": [
+              {
+                "id": 30,
+                "year": 2020,
+                "title": "Lista uccelli Provincia di Varese 2020",
+                "pdf_url": "/docs/liste/lista-varese-2020.pdf"
+              }
+            ]
+          },
+          {
+            "slug": "resoconti-ornitologici",
+            "title": "Resoconti ornitologici",
+            "type": "pdf-list",
+            "intro_text": "<p>In questi Resoconti sono presenti le osservazioni ornitologiche provinciali di ogni anno, dal 2017 ad oggi, con le segnalazioni delle specie che hanno particolare rilevanza per rarità, presenza non usuale in riferimento al periodo o alla località dove è stata effettuata l'osservazione, interessante numero di individui osservati, particolarità relative alla nidificazione e allo svernamento.<br><br>Le segnalazioni sono raccolte con il contributo di numerosi osservatori e anche attraverso alcune ricerche effettuate dal Gruppo Insubrico di Ornitologia, e per la quasi totalità fanno riferimento ai dati inseriti nel portale <a href='https://www.ornitho.it/' class='specific-link'>Ornitho</a>. I dati presenti nei vari Resoconti sono poi utilizzati per mantenere aggiornata la &ldquo;Lista degli uccelli della provincia di Varese&rdquo;.</p>",
+            "intro_excerpt": "Resoconti annuali di osservazione, dal 2017 ad oggi.",
+            "image_path": "/images/pubblicazioni/liste/resoconti/smergo-maggiore.webp",
+            "items": [
+              {
+                "id": 40,
+                "year": 2017,
+                "title": "Resoconto Ornitologico 2017",
+                "pdf_url": "/documents/pubblicazioni/resoconti/resoconto-2017.pdf"
+              },
+              {
+                "id": 41,
+                "year": 2018,
+                "title": "Resoconto Ornitologico 2018",
+                "pdf_url": "/documents/pubblicazioni/resoconti/resoconto-2018.pdf"
+              },
+              {
+                "id": 42,
+                "year": 2019,
+                "title": "Resoconto Ornitologico 2019",
+                "pdf_url": "/documents/pubblicazioni/resoconti/resoconto-2019.pdf"
+              },
+              {
+                "id": 43,
+                "year": 2020,
+                "title": "Resoconto Ornitologico 2020",
+                "pdf_url": "/documents/pubblicazioni/resoconti/resoconto-2020.pdf"
+              },
+              {
+                "id": 44,
+                "year": 2021,
+                "title": "Resoconto Ornitologico 2021",
+                "pdf_url": "/documents/pubblicazioni/resoconti/resoconto-2021.pdf"
+              },
+              {
+                "id": 45,
+                "year": 2022,
+                "title": "Resoconto Ornitologico 2022",
+                "pdf_url": "/documents/pubblicazioni/resoconti/resoconto-2022.pdf"
+              },
+              {
+                "id": 46,
+                "year": 2023,
+                "title": "Resoconto Ornitologico 2023",
+                "pdf_url": "/documents/pubblicazioni/resoconti/resoconto-2023.pdf"
+              },
+              {
+                "id": 47,
+                "year": 2024,
+                "title": "Resoconto Ornitologico 2024",
+                "pdf_url": "/documents/pubblicazioni/resoconti/resoconto-2024.pdf"
+              },
+              {
+                "id": 48,
+                "year": 2025,
+                "title": "Resoconto Ornitologico 2025",
+                "pdf_url": "/documents/pubblicazioni/resoconti/resoconto-2025.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "progetti": {
+    "intro_text": "Il G.I.O. ha intrapreso <strong>progetti di ricerca</strong> nel campo dell'ornitologia fin dai suoi esordi. Il nostro atto costitutivo recita che: “la nostra associazione persegue come scopo prioritario <strong>lo studio e la conservazione dell'avifauna</strong>. Infatti è sempre stato nello spirito dei nostri soci <strong>fare ricerca sul territorio della provincia di Varese</strong> per individuare l'avifauna presente, lo <strong>stato di conservazione</strong> e i <strong>cambiamenti e le trasformazioni</strong> avvenuti nel tempo. I risultati delle ricerche, sia quelle in corso che quelle terminate, sono consultabili alla pagina <a href='/pubblicazioni/altre-pubblicazioni' class='specific-link'>Altre Pubblicazioni</a>.",
+    "gallery": [
+      {
+        "src": "/images/progetti/rondoni.webp",
+        "alt": "Rondoni in volo"
+      },
+      {
+        "src": "/images/progetti/brebbia.webp",
+        "alt": "Campi di Brebbia"
+      },
+      {
+        "src": "/images/progetti/brabbia.webp",
+        "alt": "Palude Brabbia"
+      },
+      {
+        "src": "/images/progetti/garzaie.webp",
+        "alt": "Garzaia"
+      },
+      {
+        "src": "/images/progetti/succiacapre.webp",
+        "alt": "Succiacapre"
+      },
+      {
+        "src": "/images/progetti/progetti-in-corso.webp",
+        "alt": "Attività di ricerca sul campo"
+      }
+    ],
+    "sections": [
+      {
+        "slug": "ricerca-in-corso",
+        "title": "Progetti di ricerca in corso",
+        "intro_text": "<p><strong>I progetti di ricerca</strong> in corso comprendono: <strong>monitoraggi e censimenti</strong> sul territorio provinciale, ma anche <strong>studi, indagini</strong> e <strong>analisi</strong> mirate ad approfondire la conoscenza dell'avifauna.</p>",
+        "intro_excerpt": "Le ricerche e i monitoraggi attualmente attivi.",
+        "image_path": "/images/progetti/progetti-in-corso.webp",
+        "has_projects": true,
+        "projects_are_navigable": true
+      },
+      {
+        "slug": "ricerca-terminati",
+        "title": "Progetti di ricerca terminati",
+        "intro_text": "<p>Le nostre prime ricerche sono datate alla fine degli anni Novanta, volte all'indagine di varie tipologie di territorio per censire le specie presenti, i fattori di minaccia e le misure di conservazione necessarie per la tutela dei siti da salvaguardare.<br><br>Dal 2013 al 2018 è stato svolto il monitoraggio dell'avifauna delle <strong>Zone di Protezione Speciale dei &ldquo;Canneti del Lago Maggiore&rdquo;</strong>, un sistema di aree umide che fa parte della rete europea Rete Natura 2000, per la raccolta di dati scientifici fondamentali per supportare le istituzioni locali nella pianificazione di strategie di gestione e conservazione ambientale.In concomitanza con questo monitoraggio il G.I.O. ha partecipato al progetto <strong>LIFE NetProNet</strong> presso la ZPS &ldquo;Canneti del Lago Maggiore&rdquo;. Questa importante iniziativa di conservazione si è basata sul coinvolgimento attivo del volontariato, è stata strutturata attraverso 18 Gruppi Locali di Conservazione (GLC) distribuiti su tutto il territorio nazionale sotto la guida della LIPU.<br>Nel 2024/2025 il G.I.O. ha preso parte al Progetto <strong>Canneti in Rete</strong> promosso dalla Provincia di Varese insieme ai comuni di Angera, Besozzo, Brebbia, Ispra, Monvalle, Ranco e Sesto Calende per l'attività di monitoraggio dell'avifauna nei canneti e nelle zone umide del basso Lago Maggiore al fine di monitorare, preservare e valorizzare la biodiversità della ZPS dei &ldquo;Canneti del Lago Maggiore&rdquo;.<br>I risultati della ricerca sono consultabili al sito <a href='https://www.cannetinrete.it/' class='specific-link' target='_blank'>cannetinrete</a>.<br><br>Il periodo di chiusura forzata per la pandemia nel 2020 è stata l'occasione per fare un'attività di monitoraggio dell'avifauna urbana tra Varese e Como, che ha preso il nome di &ldquo;Visti da casa&rdquo;. I risultati sono stati pubblicati sul n. 1 - 2021 del Bollettino Ornitologico Lombardo.<br><br>Tra il 2021 e il 2022 è stato svolto il monitoraggio <strong>&ldquo;Mosaici agricoli&rdquo;</strong>, raccogliendo dati dell'avifauna negli agro-ecosistemi della Lombardia nord-occidentale, in 4 province lombarde (Varese, Como, Monza, Lecco). I risultati sono stati pubblicati sul n. 1 - 2024 del Bollettino Ornitologico Lombardo.<br><br>&Egrave; stato realizzato un monitoraggio del <strong>roost di Nibbio bruno</strong> (Milvus migrans) sul lago di Varese nel periodo 2019-2020. I risultati sono stati pubblicati sul n. 2 - 2020 del Bollettino Ornitologico Lombardo.<br><br>Diverse ricerche scientifiche sono state intraprese per documentare l'insediamento di popolazioni di <strong>specie in espansione</strong> sul territorio e per le <strong>prime riproduzioni</strong>, come nel caso della partecipazione al Progetto Smergo maggiore (Mergus merganser) dal 2010 al 2017, dell'Assiolo (Otus scops) nel 2010/2011, del Gufo reale (Bubo bubo) risultati pubblicati sul n. 2 - 2021 del Bollettino Ornitologico Lombardo, della Colombella (Columba oenas) risultati pubblicati sul n. 2 - 2020 del Bollettino Ornitologico Lombardo, del Nibbio reale (Milvus milvus) risultati pubblicati sul n. 1 - 2023 del Bollettino Ornitologico Lombardo.<br><br>Attraverso monitoraggi negli habitat boschivi della provincia di Varese negli anni 2008/2009 è stato effettuato un <strong>rapporto sui Piciformi</strong> con un approfondimento sul Picchio nero (Dryocopus martius) fino al 2012. Sono stati condotti censimenti mirati a individuare la <strong>popolazione di Civetta</strong> (Athene noctua) nella provincia nel periodo 2006/2008, mentre all'interno del <strong>Parco Pineta di Appiano Gentile e Tradate</strong> una ricerca del 2010 ha censito le popolazioni di Succiacapre (Caprimulgus europaeus), Gufo comune (Asio otus) e Falco pecchiaiolo (Pernis apivorus). Nello stesso parco nel 2019 il G.I.O. ha collaborato allo studio sulle abitudini ecologiche della <strong>Cincia dal ciuffo</strong> (Lophophanes cristatus) per il progetto organizzato dal Parco Pineta di Appiano Gentile e Tradate.<br><br>Nel 2025 la nostra associazione ha preso parte al censimento degli <strong>Habitat forestali delle Valli del Verbano</strong> in collaborazione con la Comunità Montana Valli del Verbano.<br><br>I risultati sono consultabili alla pagina <a href='/pubblicazioni/altre-pubblicazioni' class='specific-link'>Altre Pubblicazioni</a>.</p>",
+        "intro_excerpt": "Gli studi e i progetti ormai conclusi.",
+        "image_path": "/images/progetti/progetti-terminati.webp",
+        "has_projects": true,
+        "projects_are_navigable": false
+      },
+      {
+        "slug": "atlanti",
+        "title": "Atlanti Ornitologici",
+        "intro_text": "<p>Il G.I.O. nel corso degli anni si è dedicato a completare gli <strong>Atlanti Ornitologici</strong> per la provincia di Varese.</p>",
+        "intro_excerpt": "Gli atlanti di distribuzione delle specie.",
+        "image_path": "/images/progetti/atlanti.webp",
+        "has_projects": true,
+        "projects_are_navigable": true
+      }
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "section_slug": "ricerca-in-corso",
+        "slug": "iwc",
+        "title": "IWC — International Waterbird Census in provincia di Varese",
+        "image_path": "/images/progetti/in-corso/iwc.webp",
+        "intro": "<p>Il censimento internazionale degli uccelli acquatici è un progetto organizzato a livello continentale da Wetland International, in Italia è coordinato dall'ISPRA  (Istituto Superiore per la Protezione e la Ricerca Ambientale) mentre in Lombardia è curato dal Dipartimento di Biologia Animale dell'Università di Pavia.<br><br>Il G.I.O. ha compiuto il primo censimento degli uccelli acquatici svernanti in provincia di Varese nel 1986.<br>Questo censimento viene svolto nel mese di gennaio, quando le popolazioni dell'avifauna sono generalmente statiche sul territorio, con lo scopo di anticipare la migrazione pre-riproduttiva degli acquatici che stazionano in grandi stormi a latitudini più basse, al fine di:</p><ul class='specific-list'><li>stabilire annualmente la dimensione delle popolazioni presenti in gennaio</li><li>identificare le variazioni nella dimensione e nella distribuzione delle popolazioni</li><li>determinare l'importanza a livello internazionale e nazionale dei vari siti</li><li>contribuire agli sforzi internazionali per la conservazione degli uccelli acquatici e dei loro habitat</li></ul><p>Il principio cardine è la contemporaneità del censimento nelle varie aree geografiche, necessario per evitare conteggi multipli degli stessi individui.<br>In provincia di Varese Walter Guenzani (Socio G.I.O.) e Nicola Larroux (Consigliere G.I.O.) si occupano del coordinamento dei rilevatori e della trasmissione dei dati all'Università di Pavia che, a partire dal 2002, pubblica un resoconto annuale.<br><br>Le zone umide censite in provincia di Varese sono:<ul class='specific-list'><li>Lago Maggiore</li><li>Lago di Lugano</li><li>Lago di VBarese</li><li>Palude Brabbia con il coordinamento di LIPU</li><li>Lago di Monate</li><li>Lago di Comabbio</li><li>Il fiume Ticino tra Porto della Torre e Sesto Calende</li><li>Le vasche di laminazione di Lonate Pozzolo</li><li>Lago di Ganna</li><li>Lago di Ghirla</li></ul><p>Il Q1, il primo dei Quaderni del GIO è dedicato all'avifauna acquatica della provincia di Varese ed è basato sui censimenti internazionali IWC effettuati tra il 1986 e il 2010.<br><br>Nel 2025 il G.I.O. ha celebrato 40 anni di conteggio degli uccelli acquatici svernanti nelle zone umide della provincia di Varese, raccogliendo dati per un lungo periodo che testimoniano i grandi cambiamenti avvenuti.<br><br>I risultati sono consultabili alla pagina <a href='/pubblicazioni/altre-pubblicazioni' class='specific-link'>Altre Pubblicazioni</a>.</p>",
+        "blocks": [
+          {
+            "text": "",
+            "links": [
+              {
+                "kind": "pdf",
+                "label": "2017. Due laghi, Verbano e Lario, a confronto. 15 anni di International Waterbird Census",
+                "url": "/documents/progetti/iwc/15-anni-di-iwc.pdf"
+              },
+              {
+                "kind": "pdf",
+                "label": "2025. Trends of waterbirds wintering on the lakes of Lombardy: twenty years of International Waterbirds Census",
+                "url": "/documents/progetti/iwc/20-anni-di-iwc.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "section_slug": "ricerca-in-corso",
+        "slug": "home-swift-home",
+        "title": "Home Swift Home",
+        "image_path": "/images/progetti/in-corso/rondine.webp",
+        "intro": "<p>Il G.I.O., tramite i propri volontari, studia i Rondoni su alcuni filoni di ricerca che possiamo elencare come segue:</p><ul class='specific-list'><li>Monitoraggio delle colonie riproduttive: per mezzo del progetto <strong>&ldquo;Sulle ali dei rondoni&rdquo;</strong> sono state censite tra il 2021 e il 2025 le colonie urbane delle tre specie presenti. La ricerca è stata estesa ad altre province lombarde grazie alla collaborazione con le sezioni LIPU di Bergamo, Como e Varese e l'associazione CROS Varenna, oltre ai gruppi locali Amici dei Rondoni Cislaghesi e Gruppo Rondoni Como</li><li>Mappatura delle strutture per uccelli (torri e pareti colombaie, passeraie e rondonaie). L'indagine al 2026 è realizzata in provincia di Varese e in collaborazione con NovaraBW e Stefano Costa nelle province di Novara, Biella e Vercelli</li><li>Studio della fenologia e del successo riproduttivo nelle colonie di Rondone comune accessibili al nido. Il monitoraggio continuativo presso i nidi, cui si aggiunge l'inanellamento a scopo scientifico affiancato da altre tipologie di indagine, permette di indagare alcuni ambiti della biologia e dell'ecologia della specie</li></ul><br>I risultati sono consultabili alla pagina <a href='/pubblicazioni/altre-pubblicazioni' class='specific-link'>Altre Pubblicazioni</a>.",
+        "blocks": [
+          {
+            "links": [
+              {
+                "kind": "pdf",
+                "label": "2026. Demographic changes in three Common Swift colonies in the Lombardy region, Italy",
+                "url": "/documents/progetti/swift/2026-demographic-change.pdf"
+              },
+              {
+                "kind": "pdf",
+                "label": "2026. A new book about Swifts that breed in Italy",
+                "url": "/documents/progetti/swift/2026-new-book.pdf"
+              },
+              {
+                "kind": "pdf",
+                "label": "2025. Phenology and nest site fidelity in three Swift towers in the Lombardy region",
+                "url": "/documents/progetti/swift/2025-phenology.pdf"
+              },
+              {
+                "kind": "pdf",
+                "label": "2025. Passeraie, colombaie e rondonaie nelle province di Novara e Varese: mappa e monitoraggi per conservare storia e biodiversità",
+                "url": "/documents/progetti/swift/2025-passeraie-colombaie-rondonaie.pdf"
+              },
+              {
+                "kind": "pdf",
+                "label": "2024. First deployment of IoT tracking devices on Common swift Apus apus: a pilot study",
+                "url": "/documents/progetti/swift/2024-apus.pdf"
+              },
+              {
+                "kind": "pdf",
+                "label": "2024. Swift towers as open research lab: the experience of a network of nesting sites in NW Italy",
+                "url": "/documents/progetti/swift/2024-swift-towers.pdf"
+              },
+              {
+                "kind": "pdf",
+                "label": "2024. Microfibers in the Diet of a Highly Aerial Bird, the Common Swift Apus apus",
+                "url": "/documents/progetti/swift/2024-microfibers.pdf"
+              },
+              {
+                "kind": "pdf",
+                "label": "2024. Swift and sparrow towers in the provinces of Novara and Varese: census and evaluation for swift's conservation",
+                "url": "/documents/progetti/swift/2024-towers.pdf"
+              },
+              {
+                "kind": "pdf",
+                "label": "2023. Swifts and the selection of urban habitats: a citizen science project to increase the ecological knowledge of the species in the Bergamo and Varese provinces",
+                "url": "/documents/progetti/swift/2023-urban-habits.pdf"
+              },
+              {
+                "kind": "pdf",
+                "label": "2023. Swift and Sparrow towers in the Province of Varese: census, evaluation and use in the conservation and study of synanthropic species",
+                "url": "/documents/progetti/swift/2023-towers-varese.pdf"
+              },
+              {
+                "kind": "pdf",
+                "label": "2023. Site and nest fidelity in the Common Swift (Apus apus)",
+                "url": "/documents/progetti/swift/2023-site-nest.pdf"
+              },
+              {
+                "kind": "pdf",
+                "label": "2022. Which urban habitats are selected by Swifts? A citizen science program to answer the question in provinces of Varese and Bergamo, Italy",
+                "url": "/documents/progetti/swift/2022-urban-habits.pdf"
+              },
+              {
+                "kind": "pdf",
+                "label": "2022. Birds towers and walls: three successful examples of rehabilitation in province of Varese, Italy",
+                "url": "/documents/progetti/swift/2022-birds-towers.pdf"
+              },
+              {
+                "kind": "pdf",
+                "label": "2022. Breeding phenology, reproductive success and survival of Common Swift (Apus apus) from a Northern Italian colony",
+                "url": "/documents/progetti/swift/2022-breeding-phenology.pdf"
+              },
+              {
+                "kind": "pdf",
+                "label": "2022. Passeraie e rondonaie in provincia di Varese: censimento, rivalutazione ed utilizzo per conservazione e studio delle specie sinantropiche",
+                "url": "/documents/progetti/swift/2022-passeraie-rondonaie.pdf"
+              },
+              {
+                "kind": "pdf",
+                "label": "2022. Onset of primary moult in immature and breeding adult Common Swifts Apus apus",
+                "url": "/documents/progetti/swift/2022-onset-moult.pdf"
+              },
+              {
+                "kind": "pdf",
+                "label": "2019. Studio preliminare della fenologia e del successo riproduttivo in una colonia di rondone comune (Apus apus) a Jerago con Orago (VA)",
+                "url": "/documents/progetti/swift/2019-fenologia.pdf"
+              }
+            ]
+          },
+          {
+            "links": []
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "section_slug": "ricerca-in-corso",
+        "slug": "campi-di-brebbia",
+        "title": "Campi di Brebbia",
+        "image_path": "/images/progetti/in-corso/campi-brebbia.webp",
+        "intro": "<p>I &ldquo;Campi di Brebbia&rdquo; sono un'area agricolo-forestale di circa 0,88 km2 posta tra i comuni di Brebbia e Travedona-Monate in provincia di Varese. Nonostante la loro ridotta superficie, i Campi rappresentano un importante sito di stop-over per l'avifauna in migrazione nella provincia di Varese, con un totale di 177 specie di uccelli osservate tra il 2017 e il 2024, molte delle quali rare e/o di elevato interesse conservazionistico. Tra queste figurano specie in declino tipiche degli agroecosistemi, come l'Allodola (Alauda arvensis), la Cutrettola (Motacilla flava) e l'Averla Piccola (Lanius collurio).<br><br>Il G.I.O. ha analizzato la comunità ornitica dell'area mediante una ricerca mirata svolta tra 2024 e 2025 mediante metodi standardizzati, che ha permesso di segnalare due specie mai osservate nel sito: Pendolino (Remiz pendulinus) e Folaga (Fulica atra) e di quantificare i flussi migratori e le relazioni che questi hanno con le colture presenti.<br><br>I risultati della ricerca sono stati divulgati sotto forma di poster al XXII Convegno di Italiano di Ornitologia a Lecce a settembre 2025; verranno utilizzati anche come base per futuri interventi di valorizzazione ecologica dell'area in accordo con le aziende agricole che la utilizzano e le amministrazioni dei comuni coinvolti.<br><br>I risultati sono consultabili alla pagina <a href='/pubblicazioni/altre-pubblicazioni' class='specific-link'>Altre Pubblicazioni</a>.</p>",
+        "blocks": [
+          {
+            "text": "<p>Qui il link all'articolo</p>",
+            "links": [
+              {
+                "kind": "external",
+                "label": "Campi di Brebbia (Varese, Italy): a crucial stopover and wintering site for birds",
+                "url": "https://www.researchgate.net/publication/395700300_Campi_di_Brebbia_Varese_Italy_a_crucial_stopover_and_wintering_site_for_birds"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "section_slug": "ricerca-in-corso",
+        "slug": "succiacapre",
+        "title": "Monitoraggio del Succiacapre",
+        "image_path": "/images/progetti/succiacapre.webp",
+        "intro": "<p>Sta seguendo il progetto Silvio Cova per la sua tesi di laurea, supportato da Walter Guenzani. In collaborazione con Alessandro Berlusconi (Università di Milano) e il Parco del Campo dei Fiori (collaborazione di Elisa Scancarello e le GEV del Parco).<br><br>I risultati sono consultabili alla pagina <a href='/pubblicazioni/altre-pubblicazioni' class='specific-link'>Altre Pubblicazioni</a>.</p>",
+        "blocks": [
+          {
+            "text": "<p>Di seguito la documentazione relativa al progetto</p>",
+            "links": [
+              {
+                "kind": "pdf",
+                "label": "Succiacapre",
+                "url": "/documents/progetti/succiacapre/presentazione-succiacapre-walter.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "section_slug": "ricerca-in-corso",
+        "slug": "migrazione-notturna-brabbia",
+        "title": "Migrazione notturna in Palude Brabbia",
+        "image_path": "/images/progetti/in-corso/migrazione-notturna.webp",
+        "intro": "<h4>Attività di monitoraggio della migrazione notturna dell'avifauna tramite approccio bioacustico.</h4><br><p>A partire dal <strong>2021</strong> la <strong>Riserva Naturale Palude Brabbia</strong> ha avviato una campagna di monitoraggio acustico della migrazione notturna dell'avifauna grazie ad un dispositivo programmabile di registrazione automatica (Song Meter Mini 2AA). La ricerca, svolta sia durante il periodo migratorio pre-riproduttivo (primavera) che post-riproduttivo (autunno), si basa su un metodo standardizzato che prevede registrazioni acustiche durante le 3 ore dopo il tramonto e le 3 ore prima dell'alba, ovvero nelle fasce orarie di maggiore rilevabilità ed abbondanza del <strong>passo migratorio</strong>.<br>Le registrazioni vengono successivamente esaminate con un approccio acustico-grafico mediante <strong>analisi dei sonogrammi</strong>, attribuendo, ove possibile, i versi registrati a determinate specie, distinguendo quelli emessi da individui in evidente sorvolo (fly-overs) da quelli associati ad individui non in sorvolo.<br>Questo studio ha sinora permesso di aggiornare la <strong>lista delle specie</strong> rilevate presso la Riserva, di raccogliere dati sulle variazioni annuali fenologiche e di abbondanza numerica, nonché di aggiornare la <strong>fenologia</strong> di diverse specie ritenute in passato rare o accidentali a livello provinciale, ma in realtà di passo annuale nell'area di studio (es. Occhione, Piviere tortolino, etc.), così come una visione inedita dell'abbondanza numerica di altre specie migratrici (es. Tarabusino).<br><br>I risultati sono consultabili alla pagina <a href='/pubblicazioni/altre-pubblicazioni' class='specific-link'>Altre Pubblicazioni</a>.</p>",
+        "blocks": [
+          {
+            "text": "",
+            "links": [
+              {
+                "kind": "pdf",
+                "label": "",
+                "url": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "section_slug": "ricerca-in-corso",
+        "slug": "garzaia-monvalle",
+        "title": "Garzaia di Monvalle",
+        "image_path": "/images/progetti/garzaie.webp",
+        "intro": "<p>Dal 2016 il G.I.O. partecipa con alcuni soci  al monitoraggio di alcune garzaie provinciali, contribuendo alla raccolta dati per Garzaie d'Italia, un progetto scientifico di lungo periodo che consiste nel contare e studiare le colonie di aironi e altri uccelli acquatici in Italia per comprendere l'andamento delle popolazioni di uccelli nel tempo, capire lo stato di salute degli ecosistemi umidi e sostenere azioni di conservazione e tutela della biodiversità.<br><br>I risultati sono consultabili alla pagina <a href='/pubblicazioni/altre-pubblicazioni' class='specific-link'>Altre Pubblicazioni</a>.</p>",
+        "blocks": [
+          {
+            "text": "",
+            "links": [
+              {
+                "kind": "pdf",
+                "label": "",
+                "url": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "section_slug": "atlanti",
+        "slug": "atlanti",
+        "title": "Atlante Ornitologico Georeferenziato degli uccelli nidificanti 2003-2005 della provincia di Varese",
+        "image_path": "/images/progetti/atlanti/2003-2005/atlante-2003-2005.webp",
+        "intro": "<p>Negli anni 2003-2005 sono stati raccolti i dati per il primo <strong>Atlante Ornitologico Georeferenziato degli uccelli nidificanti</strong> della provincia di Varese pubblicato nel 2007 in collaborazione con l'Università dell'Insubria di Varese. Grazie a questo straordinario sforzo di ricerca, le specie censite nell'Atlante sono state complessivamente 125.<br><br>L'Atlante Ornitologico Georeferenziato 2003/2005 è stato il primo Atlante italiano con dati georeferenziati: oltre a indicare la certezza o la probabilità della nidificazione, che sono la base dell'atlante, sono state aggiunte altre informazioni più “raffinate” come altitudine e habitat, suddivisi in più di 30 classi di copertura del suolo, si è calcolato un indice di frequenza delle specie, si è elaborata una distribuzione temporale delle specie, si è riepilogato lo status di conservazione/giuridico di ogni uccello (Liste Rosse, Spec e varie Convenzioni, Leggi ecc.).<br><br>Una particolarità di questo Atlante è stata la presenza di tre “pagine” in carta pergamena allegate al volume che possono essere posizionate sulle cartine della distribuzione delle singole specie, in modo da illustrare in modo molto chiaro le seguenti informazioni:</p><ul class='specific-list'><li>Fasce altimetriche con equidistanza di 200 metri</li><li>Classi habitat in diversi colori che corrispondono ai seguenti 8 maxi habitat: Boschi di latifoglie (L), Boschi di conifere (C), Boscaglie e arbusteti (B), Vegetazione erbacea (E), Agroecosistemi (A), Corpi d'acqua e zone ripariali (Q), Aree sterili (S), Aree urbane (U).</li><li>Diversità degli habitat suddivisa in cinque percentuali, ognuna con un suo colore, ovvero: Diversità scarsa (meno 0,5), Diversità bassa (da 0,5 a 1), Diversità media (da 1 a1,5), Diversità elevata (da 1,5 a 2), Diversità molto elevata (da 2 a 2,5).</li></ul><p>Un altro elemento di rilievo è la presenza nelle pagine finali dell'Atlante di una serie di immagini che rappresentano habitat caratteristici del territorio della provincia di Varese.</p>",
+        "blocks": [
+          {
+            "text": "",
+            "links": []
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "section_slug": "atlanti",
+        "slug": "atlante-nidificanti-2024-2026",
+        "title": "Atlante Uccelli Nidificanti in Provincia di Varese 2024-2026",
+        "image_path": "/images/progetti/atlanti/2024-2026/varese-2024-2026.webp",
+        "intro": "<p>In ordine cronologico l'ultimo a cui il G.I.O. sta lavorando è il nuovo Atlante dell'Avifauna Nidificante, denominato Atlante degli Uccelli Nidificanti in Provincia di Varese, che farà il punto della situazione 20 anni dopo l'inizio della precedente indagine, l'Atlante Ornitologico Georeferenziato della Provincia di Varese. Uccelli Nidificanti 2003-2005 (Gagliardi et al., 2007), iniziata nel 2003.<br><br>Risulta evidente la necessità di disporre di nuove e più dettagliate informazioni sulla distribuzione, consistenza e status delle specie, per meglio definire la caratterizzazione faunistica del territorio con dati realmente aggiornati, che possano tenere conto dei rapidi mutamenti sull'uso del suolo e climatici che impattano in primo luogo sulla biodiversità.Il progetto si appoggerà alla piattaforma <a href='https://www.ornitho.it/' class='specific-link' target='_blank'>Ornitho</a>, anche attraverso l'app NaturaList, permettendo di facilitare la raccolta e la gestione dei dati.<br><br>Obiettivo finale del progetto è quello di rendere disponibili i dati raccolti, in forma cartacea e su supporto elettronico, per un utilizzo sia in termini scientifici sia gestionali da parte degli enti a vario titolo coinvolti nella conservazione e gestione della fauna e dell'ambiente. Il progetto avrà indicativamente durata triennale, dal 2024 al 2026, con un eventuale quarto anno di rilevamento dedicato a un gruppo di specie che rivestono particolare importanza (conservazionistica o distributiva) a livello provinciale, oppure che sono di difficile contattabilità con i metodi di rilevamento standard diurni o, ancora, perché coloniali. Il periodo delle indagini di campo sarà centrato principalmente sulla stagione riproduttiva primaverile/estiva, spaziando per alcune specie al di fuori di questo periodo.<br><br>La distribuzione delle specie sarà restituita su una griglia cartografica di 5x5 km (le Particelle, Figura 1), con griglia chilometrica UTM coincidente con la Carta Tecnica Regionale 1:10.000 della Regione Lombardia. Altre elaborazioni, per le preferenze ambientali delle specie, saranno ricavate dalle caratteristiche topografiche e dagli habitat dei relativi chilometri quadrati indagati (“celle UTM”), compatibilmente con i risultati raccolti.Per motivi pratici e di continuità, che dal 2009 ci permettono di caricare e analizzare i dati delle osservazioni personali e delle ricerche ornitologiche con grande efficienza, per partecipare a questo progetto i rilevatori dovranno essere iscritti alla piattaforma <a href='https://www.ornitho.it/' class='specific-link' target='_blank'>Ornitho</a>.<br><br>Punto importante di un progetto Atlante è quello di esaminare tutti gli ambienti presenti in provincia, dai boschi alle aree urbanizzate, dai coltivi alle zone umide, soprattutto al di fuori delle aree comunemente esplorate.</p>",
+        "blocks": [
+          {
+            "text": "<p>Documentazione e materiali del progetto</p>",
+            "links": [
+              {
+                "kind": "pdf",
+                "label": "Presentazione dell'Atlante",
+                "url": "/documents/progetti/atlante/descrizione-atlante-uccelli-nidificanti-varese-2024-2026.pdf"
+              },
+              {
+                "kind": "pdf",
+                "label": "Rapporto Atlante 2024",
+                "url": "/documents/progetti/atlante/2024/rapporto-atlante-2024.pdf"
+              },
+              {
+                "kind": "pdf",
+                "label": "Rapporto Atlante 2024-2025",
+                "url": "/documents/progetti/atlante/2024-2025/atlante-varese-2024-2025.pdf"
+              },
+              {
+                "kind": "pdf",
+                "label": "Rapporto Atlante 2025",
+                "url": "/documents/progetti/atlante/2025/atlante-varese-2025.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "section_slug": "atlanti",
+        "slug": "uiva",
+        "title": "UIVA - Uccelli in Inverno Varese 2018-2023",
+        "image_path": "/images/progetti/atlanti/uiva/uiva.webp",
+        "intro": "<p>Il progetto di monitoraggio su presenza e distribuzione degli uccelli in periodo invernale sul territorio provinciale si è concluso il 31 gennaio 2023.<br>Dal 2018, nei mesi di dicembre e gennaio, i soci GIO e molti altri collaboratori, afferenti alla piattaforma <a href='https://www.ornitho.it/' class='specific-link' target='_blank'>Ornitho</a>, hanno scandagliato gli ambienti provinciali per raccogliere informazioni sulla distribuzione delle specie.<br>Il territorio provinciale è stato suddiviso in 70 unità cartografiche di rilevamento di 5x5 km (particelle): dal confine svizzero a nord, fino alla pianura confinante con la provincia di Milano e Como.<br>Con circa 60.000 dati utili, sono state censite in totale 159 specie: le particelle con la maggiore ricchezza (numero di specie) si trovano nella parte centrale della provincia, tra il lago Maggiore ed il lago di Varese, dove sono più diffusi e numerosi gli uccelli acquatici.<br><br>L'intervallo di variazione della ricchezza è stato compreso tra 26 e 109 specie: il numero maggiore è legato alle particelle con ambiente eterogeneo situate alle quote più basse, mentre le aree montuose con ampia copertura forestale ospitano meno specie. Le aree urbanizzate residenziali, con la presenza di parchi urbani, giardini e orti, permettono a molte specie cosiddette “sinantropiche” la sopravvivenza in periodo invernale.<br><br>Tra le rarità segnaliamo: Strolaga maggiore (Gavia immer), Fenicottero (Phoenicopterusroseus), Voltapietre (Arenaria interpres), Magnanina comune (Sylvia undata), Luì forestiero (Phylloscopus inornatus), Zigolo della Lapponia (Calcarius lapponicus), Zigolo delle nevi (Plectrophenax nivalis), Zigolo golarossa (Emberiza leucocephalos) e Zigolo minore (Emberiza pusilla).</p>",
+        "blocks": [
+          {
+            "text": "",
+            "links": []
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "section_slug": "altri-lavori",
+        "slug": "milo-manica-research-gate",
+        "title": "Milo Manica su Research Gate",
+        "intro": "<p>Il profilo di Milo Manica su Research Gate, con tutte le sue pubblicazioni.</p>",
+        "blocks": [
+          {
+            "text": "",
+            "links": [
+              {
+                "kind": "external",
+                "label": "Milo Manica su Research Gate",
+                "url": "https://www.researchgate.net/profile/Milo-Manica"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "section_slug": "altri-lavori",
+        "slug": "articoli-roberto-aletti",
+        "title": "Roberto Aletti",
+        "blocks": [
+          {
+            "text": "<p>Tutti gli articoli pubblicati da Roberto Aletti</p>",
+            "links": [
+              {
+                "kind": "pdf",
+                "label": "Articoli di Roberto",
+                "url": "/documents/progetti/vari/articoli-roberto-aletti.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "section_slug": "altri-lavori",
+        "slug": "corriere-piccolo",
+        "title": "Il Corriere Piccolo",
+        "blocks": [
+          {
+            "text": "<p>Il resoconto sul Corriere piccolo</p>",
+            "links": [
+              {
+                "kind": "pdf",
+                "label": "Corriere piccolo",
+                "url": "/documents/progetti/vari/corriere-piccolo.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "section_slug": "altri-lavori",
+        "slug": "averla-piccola",
+        "title": "L'Averla Piccola",
+        "blocks": [
+          {
+            "text": "<p>Il resoconto sull'Averla piccola</p>",
+            "links": [
+              {
+                "kind": "pdf",
+                "label": "Averla piccola",
+                "url": "/documents/progetti/vari/averla-piccola.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "section_slug": "altri-lavori",
+        "slug": "tringa",
+        "title": "La Tringa",
+        "blocks": [
+          {
+            "text": "<p>Il resoconto sulla migrazione della Tringa</p>",
+            "links": [
+              {
+                "kind": "external",
+                "label": "Tringa",
+                "url": "https://sisn.pagepress.org/index.php/rio/article/view/369"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "section_slug": "altri-lavori",
+        "slug": "schiribilla-voltolino",
+        "title": "La Schiribilla ed il Voltolino",
+        "blocks": [
+          {
+            "text": "<p>Il resoconto sulla Schiribilla ed il Voltolino</p>",
+            "links": [
+              {
+                "kind": "pdf",
+                "label": "Schiribilla e Voltolino",
+                "url": "/documents/progetti/vari/schiribilla-voltolino.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "section_slug": "altri-lavori",
+        "slug": "limicoli-fiume-tresa",
+        "title": "I Limicoli della foce del fiume Tresa",
+        "blocks": [
+          {
+            "text": "<p>Il resoconto sui Limicoli della foce del fiume Tresa</p>",
+            "links": [
+              {
+                "kind": "pdf",
+                "label": "Limicoli al fiume Tresa",
+                "url": "/documents/progetti/vari/limicoli-fiume-tresa.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "section_slug": "altri-lavori",
+        "slug": "svernamento-nidificazione-varese",
+        "title": "Dallo svernamento alla nidificazione sul lago di Varese",
+        "blocks": [
+          {
+            "text": "<p>Il resoconto sullo svernamento e la nidificazione sul lago di Varese</p>",
+            "links": [
+              {
+                "kind": "pdf",
+                "label": "Dallo svernamento alla nidificazione",
+                "url": "/documents/progetti/vari/svernamento-nidificazione-varese.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "divulgazione": {
+    "intro_text": "La <strong>divulgazione</strong> &egrave; una delle attivit&agrave; fondamentali del <strong>Gruppo Insubrico di Ornitologia</strong> e rappresenta il principale strumento per <strong>condividere conoscenze, promuovere la cultura scientifica</strong> e <strong>sensibilizzare alla tutela dell'avifauna</strong>. Attraverso <strong>corsi di ornitologia, serate divulgative, incontri e convegni</strong>, il <strong>G.I.O.</strong> favorisce il <strong>dialogo tra ricercatori, appassionati e cittadini</strong>. In questa sezione sono raccolte le <strong>iniziative</strong> organizzate nel corso degli anni, testimonianza dell'impegno della nostra associazione nella <strong>formazione</strong>, nella <strong>ricerca</strong> e nella <strong>diffusione della conoscenza ornitologica</strong>.",
+    "subsections": [
+      {
+        "slug": "corsi-ornitologia",
+        "title": "Corsi di Birdwatching e Ornitologia",
+        "title_parts": [
+          "Corsi di",
+          "Birdwatching",
+          "e Ornitologia"
+        ],
+        "aria_label": "Bottone che porta alla pagina dove vengono elencati tutti i corsi di birdwatching e ornitologia del G.I.O.",
+        "intro_text": "<p>Per il <strong>Gruppo Insubrico di Ornitologia (G.I.O.)</strong> l'osservazione degli uccelli &egrave; solo il primo passo. Da oltre un decennio, i nostri corsi si pongono l'obiettivo di fornire le basi tecniche per il riconoscimento delle specie, trasformando semplici appassionati in <strong>cittadini-scienziati</strong> capaci di contribuire attivamente al monitoraggio dell'avifauna.</p><p>I nostri corsi sono <strong>aperti a tutti</strong> coloro che desiderano imparare a distinguere e riconoscere le specie di uccelli nel loro habitat naturale. Che si tratti di principianti o di appassionati che vogliono approfondire le proprie conoscenze tecniche, i nostri corsi mirano a fornire le basi per l'identificazione, l'ecologia e il monitoraggio dell'avifauna attraverso lezioni teoriche ed esercitazioni sul campo.</p><br><br><h2 class='subtitle'>Scienza e Pratica sul Campo</h2><p>I nostri corsi sono strutturati per offrire un percorso completo che unisce il rigore della teoria all'emozione dell'osservazione diretta.</p><ul class='specific-list'><li><strong>Lezioni Teoriche: </strong>incontri serali tenuti da soci esperti del G.I.O. o di altre associazioni/istituzioni,&nbsp; supportati da registrazioni di canti e filmati per apprendere le caratteristiche di varie specie.</li><li><strong>Esercitazioni sul Campo: </strong>Uscite guidate dagli esperti ornitologi del G.I.O. nei principali hotspot del territorio, come le zone umide, i boschi e le aree urbane, per mettere in pratica quanto appreso con binocoli e cannocchiali.</li></ul><br><br><h2 class='subtitle'>Cosa si impara</h2><p>I nostri programmi spaziano dai corsi base per principianti ai moduli avanzati di approfondimento:</p><ul class='specific-list'><li><strong>Identificazione e Sistematica: </strong>Come distinguere le specie simili a confronto e imparare a 'leggere' i diversi piumaggi.</li><li><strong>Bioacustica: </strong>L'ascolto e il riconoscimento dei canti, chiave indispensabile per l'identificazione in natura.</li><li><strong>Biologia ed Ecologia: </strong>Focus specifici su rapaci diurni e notturni, limicoli, uccelli acquatici e del bosco.</li><li><strong>Metodi di Ricerca: </strong>Tecniche di censimento, inanellamento e l'uso di piattaforme digitali come <a href='https://www.ornitho.it/' target='_blank' class='specific-link'>Ornitho.it</a></li></ul class='specific-list'><br><br><h2 class='subtitle'>Collaborazioni</h2><p>I nostri corsi si avvalgono di preziose collaborazioni consolidate nel tempo con:</p><ul class='specific-list'><li><strong>Universit&agrave; degli Studi dell'Insubria</strong>.</li><li><strong>Comunit&agrave; Montana Valli del Verbano</strong> e <strong>Comunit&agrave; Montana del Piambello</strong>.</li><li><strong>Parchi Regionali: </strong>Parco Pineta di Appiano Gentile e Tradate, Parco del Ticino e Parco Campo dei Fiori.</li></ul><hr class='space-line'><p><strong>Al momento non ci sono nuovi corsi in programmazione.</strong><br>Vi invitiamo  a monitorare le nostre pagine social (<a class='specific-link' href='https://www.facebook.com/GruppoInsubricoDiOrnitologia' target='_blank'>Facebook</a> e <a class='specific-link' href='https://www.instagram.com/gruppoinsubricoornitologia/' target='_blank'>Instagram</a>) e a iscrivervi alla nostra newsletter per ricevere aggiornamenti sulle prossime date e iniziative.<br><br><p>Qui sotto potete consultare la galleria delle <strong>locandine dei nostri corsi passati</strong>, dal 2013 fino ai progetti più recenti del 2025, per avere un'idea della varietà di temi trattati: dai rapaci diurni e notturni ai canti degli uccelli, fino alle tecniche di censimento e alla citizen science.</p>",
+        "intro_excerpt": "Percorsi formativi per appassionati di ogni livello.",
+        "image_path": "/images/divulgazione/birdwatching.webp",
+        "items": [
+          {
+            "id": 1,
+            "title": "Corso base di Birdwatching Parco Pineta",
+            "year": "2013",
+            "body": "<p></p>",
+            "image_path": "/images/divulgazione/corsi/2013/2013.webp"
+          },
+          {
+            "id": 2,
+            "title": "Corso base di Birdwatching CMVV",
+            "year": "2014",
+            "body": "<p></p>",
+            "image_path": "/images/divulgazione/corsi/2014/21-03-2014.webp"
+          },
+          {
+            "id": 3,
+            "title": "Corso avanzato di birdwatching Parco Pineta",
+            "year": "2014",
+            "body": "<p></p>",
+            "image_path": "/images/divulgazione/corsi/2014/15-09-2014.webp"
+          },
+          {
+            "id": 4,
+            "title": "Secondo corso di birdwatching CMVV",
+            "year": "2015",
+            "body": "<p></p>",
+            "image_path": "/images/divulgazione/corsi/2015/10-04-2015.webp"
+          },
+          {
+            "id": 5,
+            "title": "Corso di birdwatching Parco Ticino",
+            "year": "2016",
+            "body": "<p></p>",
+            "image_path": "/images/divulgazione/corsi/2016/18-03-2016.webp"
+          },
+          {
+            "id": 6,
+            "title": "Corso di birdwatching Parco Ticino",
+            "year": "2017",
+            "body": "<p></p>",
+            "image_path": "/images/divulgazione/corsi/2017/28-04-2017.webp"
+          },
+          {
+            "id": 7,
+            "title": "Corso base di birdwatching Museo Clivio",
+            "year": "2018",
+            "body": "<p></p>",
+            "image_path": "/images/divulgazione/corsi/2018/04-05-2018.webp"
+          },
+          {
+            "id": 8,
+            "title": "Secondo corso di birdwatching Museo Clivio",
+            "year": "2019",
+            "body": "<p></p>",
+            "image_path": "/images/divulgazione/corsi/2019/12-04-2019.webp"
+          },
+          {
+            "id": 9,
+            "title": "Corso di birdwatching Campo dei Fiori",
+            "year": "2019",
+            "body": "<p></p>",
+            "image_path": "/images/divulgazione/corsi/2019/08-11-2019.webp"
+          },
+          {
+            "id": 10,
+            "title": "Corso base di ornitologia Varese",
+            "year": "2024",
+            "body": "<p></p>",
+            "image_path": "/images/divulgazione/corsi/2024/12-04-2024.webp"
+          },
+          {
+            "id": 11,
+            "title": "Corso di ornitologia CMVV",
+            "year": "2025",
+            "body": "<p></p>",
+            "image_path": "/images/divulgazione/corsi/2025/14-03-2025.webp",
+            "links": [
+              {
+                "label": "Guarda il corso su YouTube",
+                "url": "https://www.youtube.com/watch?v=lUy_kPZuwA8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "eventi",
+        "title": "Eventi e Convegni",
+        "title_parts": [
+          "Eventi e",
+          "Convegni"
+        ],
+        "aria_label": "Bottone che porta alla pagina dove vengono elencati tutti gli eventi e i convegni che hanno visto partecipare il G.I.O.",
+        "intro_text": "<h4>La Storia della Nostra Ricerca</h4><br><p>Gli appuntamenti e i momenti di confronto hanno da sempre segnato il percorso del <strong>Gruppo Insubrico di Ornitologia</strong>. Per la nostra associazione, la tutela dell'avifauna non si limita all'osservazione sul campo, ma si nutre costantemente di dibattito scientifico, riflessioni sulla conservazione e condivisione dei dati con esperti e appassionati.<br>In questa pagina è possibile ripercorrere le tappe fondamentali della nostra attività attraverso le <strong>locandine e le immagini degli eventi passati</strong>. Troverete testimonianze di momenti di grande rilievo scientifico, come la <strong>XXI edizione del Convegno Italiano di Ornitologia (CIO)</strong> tenutasi a Varese nel 2023, e la <strong>Giornata di Studio sull'Avifauna in Lombardia</strong>, organizzata per celebrare lo storico traguardo dei <strong>40 anni di censimenti IWC</strong>.<br>L'archivio include inoltre appuntamenti storici come gli <strong>Incontri Insubrici di Ornitologia</strong>, gli <strong>Incontri Lombardi</strong> e giornate tematiche come il <strong>CISO DAY</strong> dedicato al futuro delle zone umide. Ogni locandina rappresenta un tassello della cultura ornitologica che il G.I.O. promuove da decenni nel territorio insubrico e oltre, spesso in prestigiosa collaborazione con università ed enti di ricerca.<br>Vi invitiamo a sfogliare questa galleria per scoprire l'evoluzione di una realtà che, da oltre quarant'anni, lavora per trasformare la passione per gli uccelli in una solida base di conoscenza scientifica.<br><br><h4>Eventi di rilievo</h4></p>",
+        "intro_excerpt": "Incontri, giornate di studio e convegni.",
+        "image_path": "/images/divulgazione/eventi.webp",
+        "items": [
+          {
+            "id": 1,
+            "title": "Giornata di Studio sull'Avifauna in Lombardia",
+            "year": "2025",
+            "body": "<p>Organizzata dal G.I.O. per celebrare il traguardo storico dei <strong>40 anni dei censimenti IWC (International Waterbird Census)</strong>. L'evento ha esplorato argomenti riguardanti l'avifauna del territorio varesino e, più ampiamente, lombardo, grazie alla partecipazione di ospiti di rilievo, alla presentazione degli esiti di diversi progetti e a momenti di confronto sulle prospettive future della conservazione.</p>",
+            "image_path": "/images/divulgazione/eventi/2025/22-11-2025.webp",
+            "links": []
+          },
+          {
+            "id": 2,
+            "title": "XXI Convegno Italiano di Ornitologia (CIO)",
+            "year": "2023",
+            "body": "<p>Si è tenuto a <strong>Varese dal 5 al 9 settembre 2023</strong> ed è stato un evento di alto profilo scientifico realizzato grazie alla collaborazione tra il <strong>CISO (Centro Italiano Studi Ornitologici)</strong>, l'<strong>Università degli Studi dell'Insubria</strong> e il <strong>G.I.O.</strong>. A questo prestigioso appuntamento è stato dedicato il <strong>Bollettino Ornitologico Lombardo Vol. 5 - n. 2 - 2023</strong>, che raccoglie i contributi scientifici presentati durante il convegno.</p>",
+            "image_path": "/images/divulgazione/eventi/2023/05-09-09-2023.webp",
+            "links": []
+          },
+          {
+            "id": 3,
+            "title": "CISO DAY",
+            "year": "2018",
+            "body": "<p>Un convegno intitolato <em>'Gli uccelli delle zone umide italiane tra passato e futuro. Spunti per la conservazione nel 2018'</em>, svoltosi presso l'Università dell'Insubria a Varese e organizzato congiuntamente da CISO, G.I.O. e l'Ateneo.</p>",
+            "image_path": "/images/divulgazione/eventi/2018/24-02-2018.webp",
+            "links": []
+          },
+          {
+            "id": 4,
+            "title": "Incontri Natura a Casciago",
+            "year": "2016",
+            "body": "<>Quattro serate a tu per tu con esperti e ricercatori, tra progetti, film e libri.</p>",
+            "image_path": "/images/divulgazione/eventi/2016/08-04-13-20-27-05-2016.webp",
+            "links": []
+          },
+          {
+            "id": 5,
+            "title": "Incontri Insubrici di Ornitologia",
+            "year": "2015",
+            "body": "<p>Un'occasione di incontro tra ricercatori e appassionati per approfondire la conoscenza dello stato e dell'evoluzione dell'avifauna nell'area insubrica, con interventi di ornitologi provenienti da Piemonte, Lombardia e Canton Ticino.</p>",
+            "image_path": "/images/divulgazione/eventi/2015/22-11-2015.webp",
+            "links": []
+          },
+          {
+            "id": 6,
+            "title": "Incontri Lombardi di Ornitologia",
+            "year": "2009 e 2010",
+            "body": "<p>Si sono svolti presso l'Oasi del Lago Boscaccio (MI), in collaborazione con GOL Gruppo Ornitologico Lombardo e Birdin Lombardia.</p>",
+            "image_path": "/images/divulgazione/eventi/2009-2010/20-02-2010.webp",
+            "links": []
+          },
+          {
+            "id": 7,
+            "title": "Incontri Insubrici di Ornitologia",
+            "year": "2008",
+            "body": "<p>Evento tenutosi a Induno Olona sotto il patrocinio del CISO Centro Italiano Studi Ornitologici, ha visto la partecipazione di numerosi gruppi ornitologici regionali.</p>",
+            "image_path": "/images/divulgazione/eventi/2008/16-02-2008.webp",
+            "links": [
+              {
+                "label": "Programma degli incontri",
+                "url": "/images/divulgazione/eventi/2008/16-02-2008.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "links": {
+    "portali": [
+      {
+        "title": "Portali di osservazioni e citizen science",
+        "groups": [
+          {
+            "links": [
+              {
+                "title": "Ornitho Italia",
+                "subtitle": " - Principale piattaforma italiana per inserimento osservazioni, atlanti, monitoraggi e validazione dati",
+                "href": "https://www.ornitho.it/"
+              },
+              {
+                "title": "Ornitho Svizzera",
+                "subtitle": " - Equivalente svizzero di Ornitho Italia",
+                "href": "https://www.ornitho.ch/"
+              },
+              {
+                "title": "Euring",
+                "subtitle": " - Rete europea che coordina l'inanellamento scientifico degli uccelli",
+                "href": "https://euring.org/"
+              },
+              {
+                "title": "Xeno Canto",
+                "subtitle": " - Archivio mondiale di canti e richiami di uccelli",
+                "href": "https://xeno-canto.org/"
+              },
+              {
+                "title": "Avibase",
+                "subtitle": " - Database tassonomico e distributivo globale",
+                "href": "https://avibase.bsc-eoc.org/avibase.jsp?lang=IT"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "organizzazioni": [
+      {
+        "title": "Organizzazioni internazionali e scientifiche",
+        "groups": [
+          {
+            "links": [
+              {
+                "title": "BirdLife",
+                "subtitle": " - Conservazione globale degli uccelli e Important Bird Areas",
+                "href": "https://www.birdlife.org/"
+              },
+              {
+                "title": "BTO",
+                "subtitle": " - Monitoraggi scientifici, atlanti e guide specie",
+                "href": "https://www.bto.org/"
+              },
+              {
+                "title": "EBCC",
+                "subtitle": " - Coordinamento dei monitoraggi europei",
+                "href": "https://www.ebcc.info/"
+              },
+              {
+                "title": "RSPB",
+                "subtitle": " - La più grande organizzazione britannica per la protezione degli uccelli",
+                "href": "https://www.rspb.org.uk/"
+              },
+              {
+                "title": "Vogelwarte",
+                "subtitle": " - La stazione ornitologica svizzera",
+                "href": "https://www.vogelwarte.ch/de/"
+              },
+              {
+                "title": "Ficedula",
+                "subtitle": " - Associazione ornitologica svizzera molto attiva nel monitoraggio",
+                "href": "https://ficedula.ch/"
+              },
+              {
+                "title": "NABU",
+                "subtitle": " - Importante organizzazione tedesca per natura e avifauna",
+                "href": "https://www.nabu.de/"
+              },
+              {
+                "title": "Ornitologia",
+                "subtitle": " - Una delle più importanti organizzazioni ornitologiche della Spagna e dell'Europa mediterranea",
+                "href": "https://ornitologia.org/ca/"
+              },
+              {
+                "title": "LPO",
+                "subtitle": " - Riferimento francese per bird conservation e monitoraggi",
+                "href": "https://www.lpo.fr/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reti": [
+      {
+        "title": "Italia - reti, associazioni e gruppi regionali",
+        "groups": [
+          {
+            "title": "Coordinamento e conservazione",
+            "links": [
+              {
+                "title": "CISO",
+                "subtitle": " - Centro Italiano Studi Ornitologici",
+                "href": "https://ciso-coi.it/"
+              },
+              {
+                "title": "LIPU",
+                "subtitle": " - Principale associazione italiana per tutela avifauna",
+                "href": "https://www.lipu.it/"
+              },
+              {
+                "title": "EBN Italia",
+                "subtitle": " - Rete birdwatching nazionale",
+                "href": "https://www.ebnitalia.it/"
+              },
+              {
+                "title": "Birdin' Lombardia",
+                "subtitle": " - Birdwatching Nord Italia",
+                "href": "https://www.birdinlombardia.it/"
+              },
+              {
+                "title": "WWF",
+                "subtitle": " - Organizzazione ambientalista",
+                "href": "https://www.wwf.it/"
+              },
+              {
+                "title": "Lega Abolizione Caccia",
+                "subtitle": " - Protezione della fauna",
+                "href": "https://www.abolizionecaccia.it/"
+              }
+            ]
+          },
+          {
+            "title": "Lombardia e Nord Italia",
+            "links": [
+              {
+                "title": "Gruppo Piemontese Studi Ornitologici",
+                "subtitle": "",
+                "href": "https://www.gpso.it/"
+              },
+              {
+                "title": "C.R.O.S. Varenna",
+                "subtitle": "",
+                "href": "https://www.crosvarenna.it/"
+              },
+              {
+                "title": "GOL - Gruppo Ornitologico Lombardo",
+                "subtitle": "",
+                "href": "https://gol-milano.it/"
+              },
+              {
+                "title": "Scienze Naturali Verbano-Cusio-Ossola",
+                "subtitle": "",
+                "href": "https://www.scienzenaturalivco.org/"
+              },
+              {
+                "title": "Cuneo Birding",
+                "subtitle": "",
+                "href": "http://www.cuneobirding.it/"
+              },
+              {
+                "title": "Liguria Birding",
+                "subtitle": "",
+                "href": "https://www.liguriabirding.net/"
+              },
+              {
+                "title": "AsOER ",
+                "subtitle": " - Associazione di ornitologi dell'Emilia Romagna",
+                "href": "https://www.asoer.org/"
+              },
+              {
+                "title": "As.Fa.Ve.",
+                "subtitle": " - Associazione di faunisti veneti",
+                "href": "https://www.faunistiveneti.it/"
+              },
+              {
+                "title": "ASTORE FVG",
+                "subtitle": " - Associazione Studi Ornitologici e Ricerche Ecologiche del Friuli Venezia Giulia",
+                "href": "https://astorefvg.org/"
+              },
+              {
+                "title": "GRA - Gruppo Ricerche Avifauna",
+                "subtitle": "",
+                "href": "https://www.grupporicercheavifauna.it/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "turismo": [
+      {
+        "title": "Turismo naturalistico",
+        "groups": [
+          {
+            "title": "",
+            "links": [
+              {
+                "title": "Animal Trip",
+                "subtitle": " - Viaggi naturalistici e birdwatching",
+                "href": "https://animal-trip.com/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "id": 1,
+      "slug": "censimento-avifauna-2025",
+      "category": "Monitoraggio",
+      "title": "Censimento Avifauna 2025. I risultati del progetto.",
+      "excerpt": "Scopri i risultati del censimento annuale delle specie nidificanti nella regione insubrica.",
+      "body": "Il censimento annuale dell'avifauna nidificante nella regione insubrica si è concluso con risultati significativi. Nel corso della stagione i nostri volontari hanno monitorato decine di siti, registrando la presenza di specie di particolare interesse conservazionistico. I dati raccolti confermano alcune tendenze positive per le popolazioni acquatiche, a fronte di una lieve flessione per le specie legate agli ambienti agricoli. Il rapporto completo è disponibile su richiesta presso la nostra sede.",
+      "image": "/images/carousel/bird-1.webp",
+      "date": "2025-01-20",
+      "attachments": [
+        {
+          "type": "pdf",
+          "label": "Rapporto completo del censimento",
+          "url": "/documenti/censimento-avifauna-2025.pdf"
+        },
+        {
+          "type": "excel",
+          "label": "Dati grezzi per sito",
+          "url": "/documenti/censimento-avifauna-2025-dati.xlsx"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "corso-birdwatching-2025",
+      "category": "Eventi",
+      "title": "Corso di Birdwatching. Aperte le iscrizioni.",
+      "excerpt": "Aperte le iscrizioni al corso base di birdwatching per principianti. Posti limitati!",
+      "body": "Sono aperte le iscrizioni al corso base di birdwatching pensato per chi si avvicina per la prima volta all'osservazione degli uccelli. Il corso si articola in incontri teorici serali e uscite sul campo nei fine settimana, durante le quali imparerai a riconoscere le specie più comuni, a usare correttamente binocolo e cannocchiale e a comportarti nel rispetto della fauna. I posti sono limitati: ti consigliamo di iscriverti quanto prima.",
+      "image": "/images/carousel/bird-2.jpg",
+      "date": "2025-01-15",
+      "attachments": [
+        {
+          "type": "word",
+          "label": "Modulo di iscrizione",
+          "url": "/documenti/modulo-iscrizione-corso.docx"
+        },
+        {
+          "type": "external",
+          "label": "Vai alla pagina di iscrizione",
+          "url": "https://www.gruppoinsubrico.com/iscrizioni"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "rivista-gio-nuovo-numero",
+      "category": "Pubblicazioni",
+      "title": "La rivista del GIO. Nuovo numero disponibile.",
+      "excerpt": "È disponibile il nuovo numero della rivista con focus sulle migrazioni autunnali.",
+      "body": "È uscito il nuovo numero della rivista del Gruppo Insubrico di Ornitologia, dedicato in gran parte alle migrazioni autunnali. All'interno trovi articoli sui principali flussi migratori osservati nella nostra area, approfondimenti sulle tecniche di inanellamento e i consueti resoconti delle attività sociali. La rivista è distribuita ai soci ed è consultabile presso la sede.",
+      "image": "/images/carousel/bird-3.jpg",
+      "date": "2025-01-10",
+      "attachments": [
+        {
+          "type": "pdf",
+          "label": "Rivista GIO - Autunno 2025",
+          "url": "/documenti/rivista-gio-autunno-2025.pdf"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "escursione-ticino-febbraio-2025",
+      "category": "Escursioni",
+      "title": "Parco del Ticino. Uccelli acquatici svernanti.",
+      "excerpt": "Domenica 2 febbraio escursione guidata alla scoperta degli uccelli acquatici svernanti.",
+      "body": "Domenica 2 febbraio ti aspettiamo per un'escursione guidata lungo il Parco del Ticino, alla scoperta degli uccelli acquatici svernanti. Accompagnati dalle nostre guide, percorreremo i sentieri che costeggiano le zone umide più ricche di avifauna, con soste dedicate all'osservazione di anatidi, aironi e limicoli. L'uscita è adatta anche alle famiglie. Si raccomanda abbigliamento caldo e, se disponibile, un binocolo personale.",
+      "image": "/images/carousel/bird-1.webp",
+      "date": "2025-01-05",
+      "attachments": [
+        {
+          "type": "powerpoint",
+          "label": "Presentazione delle specie svernanti",
+          "url": "/documenti/specie-svernanti-ticino.pptx"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "escursione-campo-fiori-marzo-2025",
+      "category": "Escursioni",
+      "title": "Parco Campo dei Fiori. Migrazione primaverile.",
+      "excerpt": "A marzo un'uscita dedicata all'osservazione dei migratori di ritorno sul Campo dei Fiori.",
+      "body": "In marzo torniamo sul Parco Campo dei Fiori per osservare i primi migratori di ritorno. Un'occasione per seguire il risveglio primaverile dell'avifauna di collina e di montagna, tra rapaci in migrazione e passeriformi nei boschi. L'escursione prevede un dislivello moderato ed è adatta a chi ha già una minima esperienza di camminata.",
+      "image": "/images/carousel/bird-1.webp",
+      "date": "2025-01-04",
+      "attachments": []
+    },
+    {
+      "id": 6,
+      "slug": "giornata-uccelli-migratori-2025",
+      "category": "Eventi",
+      "title": "Giornata mondiale degli uccelli migratori.",
+      "excerpt": "Celebriamo insieme la giornata mondiale degli uccelli migratori con un evento aperto a tutti.",
+      "body": "Anche quest'anno celebriamo la Giornata mondiale degli uccelli migratori con un evento aperto a tutti. Una mattinata di osservazione sul campo seguita da un incontro divulgativo sulle rotte migratorie e sulle minacce che gli uccelli affrontano lungo il loro viaggio. Partecipazione libera e gratuita.",
+      "image": "/images/carousel/bird-1.webp",
+      "date": "2025-01-03",
+      "attachments": []
+    },
+    {
+      "id": 7,
+      "slug": "inanellamento-autunnale-2024",
+      "category": "Monitoraggio",
+      "title": "Campagna di inanellamento autunnale.",
+      "excerpt": "I risultati della campagna di inanellamento condotta nella stazione ornitologica.",
+      "body": "Si è conclusa la campagna di inanellamento autunnale condotta presso la nostra stazione ornitologica. Nel corso delle settimane di attività sono stati inanellati numerosi individui appartenenti a diverse specie, fornendo dati preziosi su fenologia e consistenza dei flussi migratori. Ringraziamo tutti i volontari che hanno reso possibile il lavoro.",
+      "image": "/images/carousel/bird-1.webp",
+      "date": "2025-01-02",
+      "attachments": [
+        {
+          "type": "excel",
+          "label": "Tabella degli inanellamenti",
+          "url": "/documenti/inanellamento-autunno-2024.xlsx"
+        },
+        {
+          "type": "pdf",
+          "label": "Relazione di sintesi",
+          "url": "/documenti/inanellamento-autunno-2024.pdf"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "convegno-annuale-2026",
+      "category": "Eventi",
+      "title": "Convegno annuale G.I.O. 2026.",
+      "excerpt": "La giornata di studio annuale del Gruppo, con relatori nazionali e internazionali.",
+      "body": "Torna il convegno annuale del Gruppo Insubrico di Ornitologia, giornata di studio con relatori nazionali e internazionali e sessioni dedicate alle ultime ricerche sul campo. Un momento di incontro e confronto per soci, ricercatori e appassionati. Il programma dettagliato e le modalità di partecipazione sono disponibili negli allegati.",
+      "image": "/images/carousel/bird-1.webp",
+      "date": "2025-01-01",
+      "attachments": [
+        {
+          "type": "pdf",
+          "label": "Programma del convegno",
+          "url": "/documenti/convegno-2026-programma.pdf"
+        },
+        {
+          "type": "word",
+          "label": "Scheda di adesione",
+          "url": "/documenti/convegno-2026-adesione.docx"
+        }
+      ]
+    }
+  ]
+}
