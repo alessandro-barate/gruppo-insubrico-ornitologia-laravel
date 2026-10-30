@@ -30,11 +30,11 @@ class PageContentResource extends Resource
 
     protected static ?int $navigationSort = 60;
 
-    protected static ?string $navigationLabel = 'Testi delle pagine';
+    protected static ?string $navigationLabel = 'Testi e immagini delle pagine';
 
     protected static ?string $modelLabel = 'testo';
 
-    protected static ?string $pluralModelLabel = 'Testi delle pagine';
+    protected static ?string $pluralModelLabel = 'Testi e immagini delle pagine';
 
     // Titoli come scritti qui, senza Maiuscole A Ogni Parola
     protected static bool $hasTitleCaseModelLabel = false;
