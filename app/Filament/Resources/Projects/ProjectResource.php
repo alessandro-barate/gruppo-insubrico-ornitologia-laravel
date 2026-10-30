@@ -31,6 +31,9 @@ class ProjectResource extends Resource
 
     protected static ?string $pluralModelLabel = 'Progetti';
 
+    // Titoli come scritti qui, senza Maiuscole A Ogni Parola
+    protected static bool $hasTitleCaseModelLabel = false;
+
     protected static ?string $recordTitleAttribute = 'title';
 
     public static function form(Schema $schema): Schema

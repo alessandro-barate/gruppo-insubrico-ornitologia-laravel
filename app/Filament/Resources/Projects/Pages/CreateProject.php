@@ -7,5 +7,7 @@ use Filament\Resources\Pages\CreateRecord;
 
 class CreateProject extends CreateRecord
 {
+    protected static ?string $title = 'Nuovo progetto';
+
     protected static string $resource = ProjectResource::class;
 }

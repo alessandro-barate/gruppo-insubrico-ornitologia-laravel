@@ -32,6 +32,9 @@ class UserResource extends Resource
 
     protected static ?string $pluralModelLabel = 'Amministratori';
 
+    // Titoli come scritti qui, senza Maiuscole A Ogni Parola
+    protected static bool $hasTitleCaseModelLabel = false;
+
     public static function form(Schema $schema): Schema
     {
         return UserForm::configure($schema);

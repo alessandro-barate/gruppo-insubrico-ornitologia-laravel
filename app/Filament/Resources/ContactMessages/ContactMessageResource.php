@@ -30,6 +30,9 @@ class ContactMessageResource extends Resource
 
     protected static ?string $pluralModelLabel = 'Messaggi dal form di contatto';
 
+    // Titoli come scritti qui, senza Maiuscole A Ogni Parola
+    protected static bool $hasTitleCaseModelLabel = false;
+
     public static function canCreate(): bool
     {
         return false;

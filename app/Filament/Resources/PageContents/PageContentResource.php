@@ -36,6 +36,9 @@ class PageContentResource extends Resource
 
     protected static ?string $pluralModelLabel = 'Testi delle pagine';
 
+    // Titoli come scritti qui, senza Maiuscole A Ogni Parola
+    protected static bool $hasTitleCaseModelLabel = false;
+
     protected static ?string $recordTitleAttribute = 'label';
 
     public const PAGE_NAMES = [

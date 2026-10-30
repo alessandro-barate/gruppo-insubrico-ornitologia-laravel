@@ -32,7 +32,7 @@ class PageContentsTable
                     ->state(fn (PageContent $r) => match (true) {
                         blank($r->value) => 'Predefinito del sito',
                         $r->type === 'image' => 'Immagine caricata',
-                        default => Str::limit(trim(strip_tags($r->value)), 90),
+                        default => Str::limit(trim(html_entity_decode(strip_tags($r->value), ENT_QUOTES | ENT_HTML5, 'UTF-8')), 90),
                     })
                     ->color(fn (PageContent $r) => blank($r->value) ? 'gray' : null)
                     ->wrap(),
