@@ -41,7 +41,9 @@ class PageContentResource extends Resource
 
     protected static ?string $recordTitleAttribute = 'label';
 
+    /** Pagine nell'ordine del sito: è anche l'ordine dei gruppi nella lista. */
     public const PAGE_NAMES = [
+        'sito' => 'Tutto il sito (menu e footer)',
         'home' => 'Home',
         'chi-siamo' => 'Chi siamo',
         'news' => 'News',

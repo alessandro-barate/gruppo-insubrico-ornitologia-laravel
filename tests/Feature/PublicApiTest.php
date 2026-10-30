@@ -100,6 +100,16 @@ class PublicApiTest extends TestCase
     public function test_page_contents(): void
     {
         $this->getJson('/api/pages/news')->assertOk()->assertJsonStructure(['title', 'intro', 'hero_image']);
+        $this->getJson('/api/pages/home')->assertOk()
+            ->assertJsonStructure(['hero_1', 'hero_4', 'card_1_title', 'card_4_image', 'mission_1', 'activities_image']);
+        $this->getJson('/api/pages/chi-siamo')->assertOk()
+            ->assertJsonStructure(['hero_image', 'title', 'history_1', 'board', 'team_image', 'join_intro', 'form_text']);
+        $this->getJson('/api/pages/sito')->assertOk()->assertJsonStructure(['menu_image', 'footer_image']);
+        $this->getJson('/api/pages/links')->assertOk()
+            ->assertJsonStructure(['hero_image', 'title', 'panel_portali_image', 'panel_turismo_image', 'social_image']);
+        foreach (['progetti', 'divulgazione', 'pubblicazioni'] as $page) {
+            $this->getJson("/api/pages/{$page}")->assertOk()->assertJsonStructure(['hero_image', 'title', 'intro']);
+        }
     }
 
     public function test_search(): void
