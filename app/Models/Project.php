@@ -39,9 +39,12 @@ class Project extends Model
                     ->map(fn (array $l) => [
                         'kind' => $l['kind'] ?? 'pdf',
                         'label' => $l['label'] ?? '',
-                        'url' => FileUrl::to(($l['kind'] ?? '') === 'external'
+                        'url' => FileUrl::to(($l['kind'] ?? 'pdf') === 'external'
                             ? ($l['url'] ?? null)
                             : ($l['file'] ?? $l['url'] ?? null)),
+                        // Nelle sezioni "solo descrizione" il frontend mostra
+                        // solo i documenti con questo interruttore attivo
+                        'show_on_page' => (bool) ($l['show_on_page'] ?? false),
                     ])
                     ->filter(fn (array $l) => $l['url'])
                     ->values()->all();

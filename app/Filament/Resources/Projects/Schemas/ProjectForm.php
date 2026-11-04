@@ -9,6 +9,7 @@ use Filament\Forms\Components\Select;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Schema;
+use Filament\Forms\Components\Toggle;
 use Illuminate\Validation\Rules\Unique;
 
 class ProjectForm
@@ -26,12 +27,12 @@ class ProjectForm
                         Select::make('project_section_id')
                             ->label('Sezione')
                             ->helperText('Per spostare un progetto (es. da "in corso" a "terminati") basta cambiare la sezione.')
-                            ->options(fn () => ProjectSection::ordered()->pluck('title', 'id'))
+                            ->options(fn() => ProjectSection::ordered()->pluck('title', 'id'))
                             ->required()
                             ->live(),
                         Fields::slug()->unique(
                             ignoreRecord: true,
-                            modifyRuleUsing: fn (Unique $rule, Get $get) => $rule->where('project_section_id', $get('project_section_id')),
+                            modifyRuleUsing: fn(Unique $rule, Get $get) => $rule->where('project_section_id', $get('project_section_id')),
                         ),
                         Fields::richText('intro', 'Descrizione'),
                     ]),
@@ -41,7 +42,7 @@ class ProjectForm
                         Fields::image('image_path', 'Immagine della card', 'progetti'),
                     ]),
                 Section::make('Altri blocchi di testo e documenti')
-                    ->description('Nelle sezioni "in corso" e "terminati" la pagina Progetti mostra solo i blocchi senza documenti: i PDF delle ricerche vanno nella bibliografia di Altre Pubblicazioni.')
+                    ->description('Nelle sezioni "in corso" e "terminati" i documenti di norma non compaiono nella pagina Progetti (i PDF delle ricerche vanno nella bibliografia di Altre Pubblicazioni): per mostrarne uno, attiva "Mostra nella pagina del progetto" sul singolo documento.')
                     ->columnSpanFull()
                     ->schema([
                         Repeater::make('blocks')
@@ -50,12 +51,12 @@ class ProjectForm
                             ->defaultItems(0)
                             ->reorderable()
                             ->collapsible()
-                            ->itemLabel(fn (array $state): string => filled($state['text'] ?? null)
+                            ->itemLabel(fn(array $state): string => filled($state['text'] ?? null)
                                 ? str(strip_tags($state['text']))->limit(60)->toString()
                                 : 'Blocco di documenti')
                             ->schema([
                                 Fields::richText('text', 'Testo (facoltativo)'),
-                                Fields::typedLinks('links', 'Documenti e link', 'progetti'),
+                                Fields::typedLinks('links', 'Documenti e link', 'progetti', extra: [Toggle::make('show_on_page')->label('Mostra nella pagina del progetto')->helperText('Serve solo nelle sezioni "in corso" e "terminati", dove i documenti sono nascosti se non lo attivi. Nelle altre sezioni si vedono sempre.')->default(false)->columnSpanFull()]),
                             ]),
                     ]),
             ]);

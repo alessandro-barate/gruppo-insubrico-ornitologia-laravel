@@ -111,7 +111,7 @@ class Fields
      * esterno). Per i file si carica il documento, per i siti l'indirizzo.
      * Salva [{ kind|type, label, file?, url? }].
      */
-    public static function typedLinks(string $name, string $label, string $directory, string $kindKey = 'kind'): Repeater
+    public static function typedLinks(string $name, string $label, string $directory, string $kindKey = 'kind', array $extra = []): Repeater
     {
         return Repeater::make($name)
             ->label($label)
@@ -120,7 +120,7 @@ class Fields
             ->reorderable()
             ->collapsible()
             ->collapsed() // si apre il singolo file per modificarlo
-            ->itemLabel(fn (array $state): ?string => $state['label'] ?? null)
+            ->itemLabel(fn(array $state): ?string => $state['label'] ?? null)
             ->columns(2)
             ->schema([
                 Select::make($kindKey)
@@ -142,16 +142,17 @@ class Fields
                     ->maxSize(self::MAX_PDF_KB)
                     ->openable()
                     ->downloadable()
-                    ->required(fn (Get $get) => $get($kindKey) !== 'external')
-                    ->visible(fn (Get $get) => $get($kindKey) !== 'external')
+                    ->required(fn(Get $get) => $get($kindKey) !== 'external')
+                    ->visible(fn(Get $get) => $get($kindKey) !== 'external')
                     ->columnSpanFull(),
                 TextInput::make('url')
                     ->label('Indirizzo del sito')
                     ->url()
                     ->placeholder('https://…')
-                    ->required(fn (Get $get) => $get($kindKey) === 'external')
-                    ->visible(fn (Get $get) => $get($kindKey) === 'external')
+                    ->required(fn(Get $get) => $get($kindKey) === 'external')
+                    ->visible(fn(Get $get) => $get($kindKey) === 'external')
                     ->columnSpanFull(),
+                ...$extra,
             ]);
     }
 }
