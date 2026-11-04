@@ -755,14 +755,10 @@
             "text": "",
             "links": [
               {
-                "kind": "pdf",
-                "label": "2017. Due laghi, Verbano e Lario, a confronto. 15 anni di International Waterbird Census",
-                "url": "/documents/progetti/iwc/15-anni-di-iwc.pdf"
-              },
-              {
-                "kind": "pdf",
-                "label": "2025. Trends of waterbirds wintering on the lakes of Lombardy: twenty years of International Waterbirds Census",
-                "url": "/documents/progetti/iwc/20-anni-di-iwc.pdf"
+                "kind": "excel",
+                "label": "IWC totali al 2025",
+                "url": "/documents/progetti/iwc/iwc-totali-al-2025.xls",
+                "show_on_page": true
               }
             ]
           }
