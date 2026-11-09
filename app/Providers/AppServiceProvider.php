@@ -13,6 +13,7 @@ use App\Models\PublicationItem;
 use App\Models\PublicationPage;
 use App\Models\PublicationSection;
 use App\Services\SiteSearch;
+use App\Support\StoredFiles;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -37,5 +38,9 @@ class AppServiceProvider extends ServiceProvider
             $model::saved(fn () => SiteSearch::flush());
             $model::deleted(fn () => SiteSearch::flush());
         }
+
+        // File sostituiti o eliminati dal pannello: si cancellano dal disco
+        // se nessun altro contenuto li usa (vedi StoredFiles)
+        StoredFiles::register();
     }
 }
