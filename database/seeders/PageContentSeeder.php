@@ -77,6 +77,8 @@ class PageContentSeeder extends Seeder
             ['news', 'hero_image', 'image', 'Testata · immagine'],
             ['news', 'title',      'text',  'Testata · titolo (sul sito in maiuscolo)'],
             ['news', 'intro',      'html',  'Testo introduttivo'],
+            ['news', 'empty_image', 'image', 'Nessuna news pubblicata · immagine al posto delle card'],
+            ['news', 'empty_text',  'text',  'Nessuna news pubblicata · scritta sopra l\'immagine'],
 
             // ─── Progetti, Divulgazione, Pubblicazioni ──────────────────
             // I testi introduttivi: il primo valore arriva dai dati attuali

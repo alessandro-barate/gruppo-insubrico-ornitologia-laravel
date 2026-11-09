@@ -39,7 +39,7 @@ class PageContentForm
     {
         $key = $record?->key ?? '';
         $tips = match (true) {
-            str_starts_with($key, 'hero') || in_array($key, ['activities_image', 'join_background', 'social_image', 'footer_image', 'menu_image'], true)
+            str_starts_with($key, 'hero') || in_array($key, ['activities_image', 'join_background', 'social_image', 'footer_image', 'menu_image', 'empty_image'], true)
                 => 'Immagine orizzontale e larga, almeno 1920 px: occupa tutta la larghezza dello schermo e viene ritagliata. Tieni il soggetto al centro.',
             str_starts_with($key, 'card_') || str_starts_with($key, 'activity_') || $key === 'join_card_image'
                 => 'Immagine quadrata o quasi, almeno 800 px di lato: viene ritagliata per riempire la card.',
