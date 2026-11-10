@@ -39,6 +39,9 @@ class ItemsRelationManager extends RelationManager
                 ->label('Link e documenti (facoltativi)')
                 ->addActionLabel('Aggiungi un link')
                 ->defaultItems(0)
+                ->collapsible()
+                ->collapsed()
+                ->itemLabel(fn (array $state): ?string => $state['label'] ?? null)
                 ->columns(2)
                 ->columnSpanFull()
                 ->schema([

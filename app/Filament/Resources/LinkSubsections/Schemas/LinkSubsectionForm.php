@@ -29,6 +29,7 @@ class LinkSubsectionForm
                     ->defaultItems(1)
                     ->reorderable()
                     ->collapsible()
+                    ->collapsed()
                     ->itemLabel(fn (array $state): string => ($state['title'] ?? null) ?: 'Gruppo senza titolo')
                     ->columnSpanFull()
                     ->schema([
@@ -39,6 +40,8 @@ class LinkSubsectionForm
                             ->label('Link')
                             ->addActionLabel('Aggiungi un link')
                             ->reorderable()
+                            ->collapsible()
+                            ->collapsed()
                             ->columns(3)
                             ->itemLabel(fn (array $state): ?string => $state['title'] ?? null)
                             ->schema([

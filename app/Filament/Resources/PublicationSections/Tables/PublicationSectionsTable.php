@@ -26,6 +26,8 @@ class PublicationSectionsTable
                     ->collapsible()
                     ->getTitleFromRecordUsing(fn (PublicationSection $r) => $r->parent?->fullTitle() ?? 'Pagina Pubblicazioni (card principali)')
             )
+            // Gruppi chiusi all'apertura: si apre solo quello che serve
+            ->collapsedGroupsByDefault()
             ->columns([
                 TextColumn::make('title')
                     ->label('Titolo')

@@ -51,6 +51,7 @@ class ProjectForm
                             ->defaultItems(0)
                             ->reorderable()
                             ->collapsible()
+                            ->collapsed()
                             ->itemLabel(fn(array $state): string => filled($state['text'] ?? null)
                                 ? str(strip_tags($state['text']))->limit(60)->toString()
                                 : 'Blocco di documenti')

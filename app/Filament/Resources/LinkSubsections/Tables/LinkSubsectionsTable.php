@@ -22,7 +22,10 @@ class LinkSubsectionsTable
                 Group::make('category')
                     ->label('Pannello')
                     ->getTitleFromRecordUsing(fn (LinkSubsection $r) => LinkSubsection::CATEGORIES[$r->category] ?? $r->category)
+                    ->collapsible()
             )
+            // Gruppi chiusi all'apertura: si apre solo quello che serve
+            ->collapsedGroupsByDefault()
             ->columns([
                 TextColumn::make('title')->label('Colonna')->searchable(),
                 TextColumn::make('groups')

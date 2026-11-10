@@ -30,6 +30,8 @@ class PageContentsTable
                     ->orderQueryUsing(fn (Builder $query, string $direction) => $query->orderByRaw(self::pageOrderSql()))
                     ->collapsible()
             )
+            // Gruppi chiusi all'apertura: si apre solo quello che serve
+            ->collapsedGroupsByDefault()
             ->filters([
                 SelectFilter::make('page')
                     ->label('Pagina')

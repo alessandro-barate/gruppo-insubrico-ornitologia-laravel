@@ -24,7 +24,10 @@ class ProjectsTable
                 Group::make('project_section_id')
                     ->label('Sezione')
                     ->getTitleFromRecordUsing(fn (Project $r) => $r->section?->title)
+                    ->collapsible()
             )
+            // Gruppi chiusi all'apertura: si apre solo quello che serve
+            ->collapsedGroupsByDefault()
             ->columns([
                 TextColumn::make('title')->label('Titolo')->searchable()->wrap(),
                 TextColumn::make('blocks')
