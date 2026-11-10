@@ -25,6 +25,8 @@ class RichHtml
             return $html;
         }
 
+        $html = self::images($html);
+
         foreach (self::DEFAULT_CLASSES as $tag => $class) {
             // <ul> o <ul ...> senza un attributo class → aggiunge la classe
             $html = preg_replace_callback(
@@ -42,5 +44,29 @@ class RichHtml
         }
 
         return $html;
+    }
+
+    /**
+     * Immagini inserite con l'editor del pannello: l'editor salva il percorso
+     * del file in data-id. Qui ogni <img> viene riscritto con il solo
+     * indirizzo pubblico del file e la descrizione (alt); ogni altro
+     * attributo si toglie. Un'immagine senza file valido viene tolta.
+     */
+    private static function images(string $html): string
+    {
+        return preg_replace_callback('/<img\b[^>]*>/i', function (array $m) {
+            $attr = fn (string $name) => preg_match('/\s'.$name.'\s*=\s*("([^"]*)"|\'([^\']*)\')/i', $m[0], $a)
+                ? html_entity_decode($a[2] !== '' ? $a[2] : ($a[3] ?? ''), ENT_QUOTES)
+                : '';
+
+            $path = $attr('data-id');
+            $src = $path !== '' ? FileUrl::to($path) : $attr('src');
+
+            if (! is_string($src) || ! preg_match('#^(https?://|/)#i', $src)) {
+                return '';
+            }
+
+            return '<img src="'.e($src).'" alt="'.e($attr('alt')).'" loading="lazy">';
+        }, $html);
     }
 }

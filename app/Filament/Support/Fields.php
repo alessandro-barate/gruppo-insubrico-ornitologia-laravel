@@ -66,7 +66,11 @@ class Fields
             ->validationMessages(['regex' => 'Usa solo lettere minuscole, numeri e trattini.']);
     }
 
-    public static function richText(string $name, string $label): RichEditor
+    /**
+     * Editor di testo formattato. Con $images = true la barra ha anche il
+     * pulsante per inserire immagini nel testo (salvate in storage/pagine).
+     */
+    public static function richText(string $name, string $label, bool $images = false): RichEditor
     {
         return RichEditor::make($name)
             ->label($label)
@@ -74,8 +78,15 @@ class Fields
                 ['bold', 'italic', 'underline', 'link'],
                 ['h2', 'h3'],
                 ['bulletList', 'orderedList'],
+                ...($images ? [['attachFiles']] : []),
                 ['undo', 'redo'],
             ])
+            ->fileAttachments($images)
+            ->fileAttachmentsDisk('public')
+            ->fileAttachmentsDirectory('pagine')
+            ->fileAttachmentsVisibility('public')
+            ->fileAttachmentsAcceptedFileTypes(['image/jpeg', 'image/png', 'image/webp'])
+            ->fileAttachmentsMaxSize(self::MAX_IMAGE_KB)
             ->columnSpanFull();
     }
 

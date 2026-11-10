@@ -103,12 +103,26 @@ class StoredFiles
             $paths = array_merge($paths, self::filesInJson($value($column)));
         }
 
-        // Contenuti modificabili delle pagine: solo quelli di tipo immagine
+        // Contenuti modificabili delle pagine: le immagini e le foto
+        // inserite nei testi formattati (es. il direttivo in Chi siamo)
         if ($record instanceof PageContent && $value('type') === 'image') {
             $paths[] = $value('value');
         }
+        if ($record instanceof PageContent && $value('type') === 'html') {
+            $paths = array_merge($paths, self::imagesInHtml($value('value')));
+        }
 
         return array_values(array_unique(array_filter($paths, fn ($p) => self::isStored($p))));
+    }
+
+    /** Percorsi delle immagini inserite con l'editor (attributo data-id) */
+    private static function imagesInHtml(mixed $html): array
+    {
+        if (! is_string($html) || ! preg_match_all('/<img\b[^>]*\sdata-id\s*=\s*"([^"]+)"/i', $html, $m)) {
+            return [];
+        }
+
+        return array_map(fn ($p) => html_entity_decode($p, ENT_QUOTES), $m[1]);
     }
 
     /** Valori "file" a qualsiasi livello di un array (o JSON) */
@@ -175,6 +189,7 @@ class StoredFiles
             }
         }
 
-        return PageContent::where('type', 'image')->where('value', $path)->exists();
+        return PageContent::where('type', 'image')->where('value', $path)->exists()
+            || PageContent::where('type', 'html')->where('value', 'like', '%'.$name.'%')->exists();
     }
 }

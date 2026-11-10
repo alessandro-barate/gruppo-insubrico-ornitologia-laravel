@@ -15,6 +15,22 @@ class PageContent extends Model
     /** Tag HTML ammessi nei campi di tipo "html". */
     public const ALLOWED_TAGS = '<p><br><strong><b><em><i><u><ul><ol><li><a><h2><h3>';
 
+    /** Campi "html" in cui si possono inserire immagini nel testo (pagina.chiave). */
+    public const HTML_WITH_IMAGES = ['chi-siamo.board'];
+
+    /** Questo campo accetta immagini nel testo? */
+    public function allowsImages(): bool
+    {
+        return $this->type === 'html'
+            && in_array($this->page.'.'.$this->key, self::HTML_WITH_IMAGES, true);
+    }
+
+    /** Tag ammessi per questo campo */
+    public function allowedTags(): string
+    {
+        return self::ALLOWED_TAGS.($this->allowsImages() ? '<img>' : '');
+    }
+
     /**
      * Valore pronto per il frontend:
      * - immagini → URL completo (http://.../storage/page-contents/xxx.webp)

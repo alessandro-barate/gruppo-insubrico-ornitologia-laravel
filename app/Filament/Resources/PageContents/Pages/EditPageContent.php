@@ -16,7 +16,7 @@ class EditPageContent extends EditRecord
         $value = $data['value'] ?? null;
 
         if (is_string($value) && $this->record->type === 'html') {
-            $value = strip_tags($value, PageContent::ALLOWED_TAGS);
+            $value = strip_tags($value, $this->record->allowedTags());
         }
 
         $data['value'] = (is_string($value) && trim(strip_tags($value)) === '' && $this->record->type !== 'image')

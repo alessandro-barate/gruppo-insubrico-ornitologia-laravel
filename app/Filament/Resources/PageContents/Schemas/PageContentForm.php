@@ -24,7 +24,11 @@ class PageContentForm
                 // Un solo campo, del tipo giusto per questo testo
                 ->schema(fn (?PageContent $record) => [
                     match ($record?->type) {
-                        'html' => Fields::richText('value', 'Testo')->hiddenLabel(),
+                        'html' => Fields::richText('value', 'Testo', images: (bool) $record?->allowsImages())
+                            ->hiddenLabel()
+                            ->helperText($record?->allowsImages()
+                                ? 'Per aggiungere una foto: metti il cursore su una riga vuota (es. tra l\'anno e l\'elenco dei nomi) e usa il pulsante «Allega file» della barra. Scrivi anche la descrizione per i lettori di schermo. Per toglierla, selezionala e premi Canc. JPG, PNG o WebP, al massimo 8 MB.'
+                                : null),
                         'image' => Fields::image('value', 'Immagine', 'pagine')
                             ->hiddenLabel()
                             ->helperText(self::imageHelp($record)),
