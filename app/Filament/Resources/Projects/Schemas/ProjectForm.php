@@ -14,6 +14,8 @@ use Illuminate\Validation\Rules\Unique;
 
 class ProjectForm
 {
+    private const IMAGES_HELP = 'Per inserire una foto nel testo: metti il cursore dove deve comparire (es. alla fine di una frase o dopo un elenco) e usa il pulsante con la graffetta. Scrivi una breve descrizione della foto quando te la chiede. La foto comparirà centrata, a tutta larghezza del testo.';
+
     public static function configure(Schema $schema): Schema
     {
         return $schema
@@ -34,7 +36,8 @@ class ProjectForm
                             ignoreRecord: true,
                             modifyRuleUsing: fn(Unique $rule, Get $get) => $rule->where('project_section_id', $get('project_section_id')),
                         ),
-                        Fields::richText('intro', 'Descrizione'),
+                        Fields::richText('intro', 'Descrizione', images: true, directory: 'progetti')
+                            ->helperText(self::IMAGES_HELP),
                     ]),
                 Section::make('Immagine')
                     ->columnSpan(1)
@@ -56,7 +59,8 @@ class ProjectForm
                                 ? str(strip_tags($state['text']))->limit(60)->toString()
                                 : 'Blocco di documenti')
                             ->schema([
-                                Fields::richText('text', 'Testo (facoltativo)'),
+                                Fields::richText('text', 'Testo (facoltativo)', images: true, directory: 'progetti')
+                                    ->helperText(self::IMAGES_HELP),
                                 Fields::typedLinks('links', 'Documenti e link', 'progetti', extra: [Toggle::make('show_on_page')->label('Mostra nella pagina del progetto')->helperText('Serve solo nelle sezioni "in corso" e "terminati", dove i documenti sono nascosti se non lo attivi. Nelle altre sezioni si vedono sempre.')->default(false)->columnSpanFull()]),
                             ]),
                     ]),

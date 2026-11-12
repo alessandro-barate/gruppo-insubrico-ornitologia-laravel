@@ -68,9 +68,9 @@ class Fields
 
     /**
      * Editor di testo formattato. Con $images = true la barra ha anche il
-     * pulsante per inserire immagini nel testo (salvate in storage/pagine).
+     * pulsante per inserire immagini nel testo (salvate in storage/$directory).
      */
-    public static function richText(string $name, string $label, bool $images = false): RichEditor
+    public static function richText(string $name, string $label, bool $images = false, string $directory = 'pagine'): RichEditor
     {
         return RichEditor::make($name)
             ->label($label)
@@ -83,7 +83,7 @@ class Fields
             ])
             ->fileAttachments($images)
             ->fileAttachmentsDisk('public')
-            ->fileAttachmentsDirectory('pagine')
+            ->fileAttachmentsDirectory($directory)
             ->fileAttachmentsVisibility('public')
             ->fileAttachmentsAcceptedFileTypes(['image/jpeg', 'image/png', 'image/webp'])
             ->fileAttachmentsMaxSize(self::MAX_IMAGE_KB)

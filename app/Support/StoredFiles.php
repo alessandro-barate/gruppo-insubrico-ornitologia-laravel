@@ -53,11 +53,17 @@ class StoredFiles
         OutreachItem::class => ['links'],
     ];
 
+    /** Colonne con testo formattato in cui si possono inserire foto */
+    public const HTML_COLUMNS = [
+        Project::class => ['intro'],
+    ];
+
     public static function register(): void
     {
         $models = array_unique(array_merge(
             array_keys(self::COLUMNS),
             array_keys(self::JSON_COLUMNS),
+            array_keys(self::HTML_COLUMNS),
             [PageContent::class],
         ));
 
@@ -103,6 +109,11 @@ class StoredFiles
             $paths = array_merge($paths, self::filesInJson($value($column)));
         }
 
+        // Foto inserite nei testi formattati (es. descrizione dei progetti)
+        foreach (self::HTML_COLUMNS[$class] ?? [] as $column) {
+            $paths = array_merge($paths, self::imagesInHtml($value($column)));
+        }
+
         // Contenuti modificabili delle pagine: le immagini e le foto
         // inserite nei testi formattati (es. il direttivo in Chi siamo)
         if ($record instanceof PageContent && $value('type') === 'image') {
@@ -140,6 +151,8 @@ class StoredFiles
         array_walk_recursive($data, function ($v, $k) use (&$files) {
             if ($k === 'file' && is_string($v)) {
                 $files[] = $v;
+            } elseif (is_string($v) && stripos($v, '<img') !== false) {
+                array_push($files, ...self::imagesInHtml($v));
             }
         });
 
@@ -182,6 +195,14 @@ class StoredFiles
         $name = basename($path);
 
         foreach (self::JSON_COLUMNS as $model => $columns) {
+            foreach ($columns as $column) {
+                if ($model::where($column, 'like', '%'.$name.'%')->exists()) {
+                    return true;
+                }
+            }
+        }
+
+        foreach (self::HTML_COLUMNS as $model => $columns) {
             foreach ($columns as $column) {
                 if ($model::where($column, 'like', '%'.$name.'%')->exists()) {
                     return true;
