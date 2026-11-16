@@ -15,6 +15,8 @@ use Illuminate\Validation\Rules\Unique;
 
 class PublicationSectionForm
 {
+    private const IMAGES_HELP = 'Per inserire una foto nel testo: metti il cursore su una riga vuota dove deve comparire e usa il pulsante con la graffetta.';
+
     public static function configure(Schema $schema): Schema
     {
         $is = fn (string ...$types) => fn (Get $get) => in_array($get('type'), $types, true);
@@ -51,13 +53,23 @@ class PublicationSectionForm
                             ->label('Testo breve della card')
                             ->maxLength(255)
                             ->columnSpanFull(),
-                        Fields::richText('intro_text', 'Testo introduttivo della pagina'),
+                        TextInput::make('subtitle')
+                            ->label('Sottotitolo')
+                            ->helperText('Compare sotto il titolo, più piccolo (es. «25 anni di dati in provincia di Varese (128 pagine)»).')
+                            ->visible($is('detail'))
+                            ->maxLength(255)
+                            ->columnSpanFull(),
+                        Fields::richText('intro_text', 'Testo introduttivo della pagina', images: true, directory: 'pubblicazioni')
+                            ->helperText(self::IMAGES_HELP),
                         TextInput::make('second_intro_text')
                             ->label('Titolo sopra la lista')
                             ->placeholder('Es. Bibliografia del G.I.O.')
                             ->visible($is('bibliography', 'pdf-list', 'cards'))
                             ->maxLength(255)
                             ->columnSpanFull(),
+                        Fields::richText('outro_text', 'Testo in fondo alla pagina (facoltativo)', images: true, directory: 'pubblicazioni')
+                            ->helperText('Compare dopo l\'elenco, in fondo alla pagina: per esempio una foto. '.self::IMAGES_HELP)
+                            ->visible($is('bibliography', 'pdf-list', 'cards', 'detail')),
                     ]),
                 Section::make('Immagini e lista')
                     ->columnSpan(1)
@@ -81,7 +93,8 @@ class PublicationSectionForm
                     ->columns(2)
                     ->visible($is('detail'))
                     ->schema([
-                        Fields::richText('body', 'Testo'),
+                        Fields::richText('body', 'Testo', images: true, directory: 'pubblicazioni')
+                            ->helperText(self::IMAGES_HELP),
                         Fields::pdf('pdf_path', 'PDF scaricabile', 'pubblicazioni'),
                         TextInput::make('price')
                             ->label('Donazione minima')

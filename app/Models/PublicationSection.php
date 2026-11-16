@@ -28,8 +28,8 @@ class PublicationSection extends Model
     ];
 
     protected $fillable = [
-        'parent_id', 'slug', 'title', 'type', 'intro_excerpt', 'intro_text',
-        'second_intro_text', 'image_path', 'header_image', 'items_per_page',
+        'parent_id', 'slug', 'title', 'subtitle', 'type', 'intro_excerpt', 'intro_text',
+        'second_intro_text', 'outro_text', 'image_path', 'header_image', 'items_per_page',
         'group_by_year', 'body', 'pdf_path', 'price', 'sort',
     ];
 
@@ -103,6 +103,7 @@ class PublicationSection extends Model
             'type' => $this->type,
             'intro_text' => RichHtml::render($this->intro_text),
             'second_intro_text' => $this->second_intro_text,
+            'outro_text' => RichHtml::render($this->outro_text),
             'intro_excerpt' => $this->intro_excerpt,
             'header_image' => FileUrl::to($this->header_image),
             'image_path' => FileUrl::to($this->image_path),
@@ -115,6 +116,7 @@ class PublicationSection extends Model
                 break;
 
             case 'detail':
+                $node['subtitle'] = $this->subtitle;
                 $node['body'] = RichHtml::render($this->body);
                 $node['pdf_url'] = FileUrl::to($this->pdf_path);
                 $node['price'] = $this->price;

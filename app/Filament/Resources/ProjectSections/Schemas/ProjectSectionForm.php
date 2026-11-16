@@ -24,7 +24,8 @@ class ProjectSectionForm
                         TextInput::make('intro_excerpt')
                             ->label('Testo breve della card')
                             ->maxLength(255),
-                        Fields::richText('intro_text', 'Testo introduttivo'),
+                        Fields::richText('intro_text', 'Testo introduttivo', images: true, directory: 'progetti')
+                            ->helperText('Per inserire una foto nel testo: metti il cursore su una riga vuota dove deve comparire e usa il pulsante con la graffetta.'),
                     ]),
                 Section::make('Aspetto')
                     ->columnSpan(1)

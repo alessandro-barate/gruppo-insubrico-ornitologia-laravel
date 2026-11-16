@@ -12,6 +12,7 @@ use App\Models\ProjectSection;
 use App\Models\PublicationItem;
 use App\Models\PublicationPage;
 use App\Models\PublicationSection;
+use App\Models\PublicContribution;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
@@ -44,6 +45,7 @@ class StoredFiles
         GalleryImage::class => ['image_path'],
         OutreachSection::class => ['image_path'],
         OutreachItem::class => ['image_path'],
+        PublicContribution::class => ['file_path'],
     ];
 
     /** Colonne JSON con elenchi di file (chiave "file" di ogni voce) */
@@ -56,6 +58,8 @@ class StoredFiles
     /** Colonne con testo formattato in cui si possono inserire foto */
     public const HTML_COLUMNS = [
         Project::class => ['intro'],
+        ProjectSection::class => ['intro_text'],
+        PublicationSection::class => ['intro_text', 'body', 'outro_text'],
     ];
 
     public static function register(): void
