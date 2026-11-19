@@ -12,13 +12,15 @@ class NewsController extends Controller
     /**
      * GET /api/news?page=1&perPage=6
      * { data: News[], total, page, perPage } — dalla più recente.
+     * Con home=1 solo le news da mostrare nel carosello della Home.
      */
     public function index(Request $request): JsonResponse
     {
         $perPage = min(max((int) $request->query('perPage', 6), 1), 50);
         $page = max((int) $request->query('page', 1), 1);
 
-        $query = News::published()->orderByDesc('date')->orderByDesc('id');
+        $query = $request->boolean('home') ? News::onHome() : News::published();
+        $query->orderByDesc('date')->orderByDesc('id');
         $total = (clone $query)->count();
 
         return response()->json([

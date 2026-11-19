@@ -49,6 +49,17 @@ class NewsForm
                         Toggle::make('is_published')
                             ->label('Visibile sul sito')
                             ->default(true),
+                        Toggle::make('show_on_home')
+                            ->label('Mostra in Home')
+                            ->helperText('Spento: la news non compare nel carosello della Home, ma resta nella pagina News.')
+                            ->default(true)
+                            ->live(),
+                        DatePicker::make('home_until')
+                            ->label('In Home fino al (facoltativo)')
+                            ->helperText('Dopo questa data la news esce dalla Home da sola e resta nella pagina News. Vuoto: resta in Home finché non spegni «Mostra in Home».')
+                            ->native(false)
+                            ->displayFormat('d/m/Y')
+                            ->visible(fn ($get) => (bool) $get('show_on_home')),
                         Fields::image('image', 'Immagine di copertina', 'news'),
                     ]),
                 Section::make('Allegati')

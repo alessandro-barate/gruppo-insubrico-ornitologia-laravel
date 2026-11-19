@@ -12,18 +12,41 @@ class News extends Model
 
     protected $fillable = [
         'slug', 'title', 'category', 'date', 'image', 'excerpt', 'body',
-        'attachments', 'is_published',
+        'attachments', 'is_published', 'show_on_home', 'home_until',
     ];
 
     protected $casts = [
         'date' => 'date',
         'attachments' => 'array',
         'is_published' => 'boolean',
+        'show_on_home' => 'boolean',
+        'home_until' => 'date',
     ];
 
     public function scopePublished(Builder $query): Builder
     {
         return $query->where('is_published', true);
+    }
+
+    /**
+     * News da mostrare nel carosello della Home: pubblicate, con «Mostra in
+     * Home» acceso e non oltre la data «In Home fino al» (se c'è).
+     */
+    public function scopeOnHome(Builder $query): Builder
+    {
+        return $query->published()
+            ->where('show_on_home', true)
+            ->where(fn (Builder $q) => $q
+                ->whereNull('home_until')
+                ->orWhereDate('home_until', '>=', today()));
+    }
+
+    /** True se in questo momento la news compare in Home */
+    public function isOnHome(): bool
+    {
+        return $this->is_published
+            && $this->show_on_home
+            && (! $this->home_until || $this->home_until->gte(today()));
     }
 
     /** Forma usata dal frontend (pages/news, NewsCard, NewsCarousel) */
