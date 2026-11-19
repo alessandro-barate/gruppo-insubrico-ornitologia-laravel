@@ -25,6 +25,8 @@ class PageContentSeeder extends Seeder
             // ─── Tutto il sito (menu e footer) ──────────────────────────
             ['sito', 'menu_image',   'image', 'Menu a tutto schermo (telefono e tablet) · immagine di sfondo'],
             ['sito', 'footer_image', 'image', 'Footer · immagine di sfondo'],
+            ['sito', 'transparency_title', 'text', 'Footer · finestra «Trasparenza sui Contributi Pubblici» · titolo'],
+            ['sito', 'transparency_text',  'html', 'Footer · finestra «Trasparenza sui Contributi Pubblici» · testo (i documenti per anno si caricano in Trasparenza contributi)'],
 
             // ─── Home ───────────────────────────────────────────────────
             ['home', 'hero_1', 'image', 'Copertina · immagine 1 di 4 (si alternano ogni 4 secondi)'],

@@ -15,6 +15,7 @@ class Project extends Model
     use Sortable;
 
     protected $fillable = [
+        'card_text_position',
         'project_section_id', 'slug', 'title', 'image_path', 'intro', 'blocks', 'sort',
     ];
 
@@ -88,6 +89,7 @@ class Project extends Model
                 ? Str::substr(trim(strip_tags($this->intro)), 0, 120)
                 : null,
             'image_path' => FileUrl::to($this->image_path),
+            'card_text_position' => $this->card_text_position ?: 'center',
         ], fn ($v) => $v !== null);
     }
 }

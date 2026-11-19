@@ -31,6 +31,7 @@ class ProjectSectionForm
                     ->columnSpan(1)
                     ->schema([
                         Fields::image('image_path', 'Immagine della card', 'progetti'),
+                        Fields::cardTextPosition('center'),
                         Toggle::make('has_projects')
                             ->label('Contiene progetti')
                             ->default(true),

@@ -14,6 +14,7 @@ class OutreachSection extends Model
     use Sortable;
 
     protected $fillable = [
+        'card_text_position',
         'slug', 'title', 'title_parts', 'aria_label', 'intro_excerpt',
         'intro_text', 'image_path', 'sort',
     ];
@@ -42,6 +43,7 @@ class OutreachSection extends Model
             'aria_label' => $this->aria_label ?: "Vai alla pagina {$this->title}",
             'intro_excerpt' => $this->intro_excerpt,
             'image_path' => FileUrl::to($this->image_path),
+            'card_text_position' => $this->card_text_position ?: 'center',
         ], fn ($v) => $v !== null);
     }
 

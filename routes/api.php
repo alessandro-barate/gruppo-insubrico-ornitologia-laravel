@@ -6,6 +6,7 @@ use App\Http\Controllers\Api\OutreachController;
 use App\Http\Controllers\Api\ProjectController;
 use App\Http\Controllers\Api\PublicationController;
 use App\Http\Controllers\Api\SearchController;
+use App\Http\Controllers\Api\TransparencyController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\PageContentController;
@@ -40,6 +41,9 @@ Route::get('/divulgazione/{slug}', [OutreachController::class, 'show']);
 
 // Social e link utili
 Route::get('/links', [LinkController::class, 'index']);
+
+// Trasparenza sui contributi pubblici (finestra nel footer)
+Route::get('/trasparenza', [TransparencyController::class, 'index']);
 
 // Ricerca nel sito
 Route::get('/search', SearchController::class)->middleware('throttle:60,1');

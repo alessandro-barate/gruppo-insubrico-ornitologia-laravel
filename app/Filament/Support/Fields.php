@@ -3,6 +3,8 @@
 namespace App\Filament\Support;
 
 use Filament\Forms\Components\FileUpload;
+use Filament\Forms\Components\ToggleButtons;
+use Filament\Support\Icons\Heroicon;
 use Filament\Forms\Components\Repeater;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
@@ -64,6 +66,28 @@ class Fields
             ->maxLength(255)
             ->regex('/^[a-z0-9]+(?:-[a-z0-9]+)*$/')
             ->validationMessages(['regex' => 'Usa solo lettere minuscole, numeri e trattini.']);
+    }
+
+    /**
+     * Posizione del titolo sulla card con foto: al centro o in basso
+     * (in basso la foto resta più libera).
+     */
+    public static function cardTextPosition(string $default = 'center'): ToggleButtons
+    {
+        return ToggleButtons::make('card_text_position')
+            ->label('Posizione del titolo sulla card')
+            ->options([
+                'center' => 'Al centro',
+                'bottom' => 'In basso',
+            ])
+            ->icons([
+                'center' => Heroicon::OutlinedBars3CenterLeft,
+                'bottom' => Heroicon::OutlinedBarsArrowDown,
+            ])
+            ->inline()
+            ->default($default)
+            ->required()
+            ->helperText('In basso il titolo non copre il soggetto della foto.');
     }
 
     /**

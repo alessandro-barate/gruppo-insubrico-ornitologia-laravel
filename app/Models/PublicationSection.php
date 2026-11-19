@@ -28,6 +28,7 @@ class PublicationSection extends Model
     ];
 
     protected $fillable = [
+        'card_text_position',
         'parent_id', 'slug', 'title', 'subtitle', 'type', 'intro_excerpt', 'intro_text',
         'second_intro_text', 'outro_text', 'image_path', 'header_image', 'items_per_page',
         'group_by_year', 'body', 'pdf_path', 'price', 'sort',
@@ -90,6 +91,7 @@ class PublicationSection extends Model
             'title' => $this->title,
             'intro_excerpt' => $this->intro_excerpt,
             'image_path' => FileUrl::to($this->image_path),
+            'card_text_position' => $this->card_text_position ?: 'center',
             'type' => $this->type,
         ], fn ($v) => $v !== null);
     }

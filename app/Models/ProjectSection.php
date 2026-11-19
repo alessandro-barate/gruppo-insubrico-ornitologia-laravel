@@ -20,6 +20,7 @@ class ProjectSection extends Model
     public const DESCRIPTION_ONLY = ['ricerca-in-corso', 'ricerca-terminati'];
 
     protected $fillable = [
+        'card_text_position',
         'slug', 'title', 'intro_excerpt', 'intro_text', 'image_path',
         'has_projects', 'projects_are_navigable', 'sort',
     ];
@@ -54,6 +55,7 @@ class ProjectSection extends Model
             'title' => $this->title,
             'intro_excerpt' => $this->intro_excerpt,
             'image_path' => FileUrl::to($this->image_path),
+            'card_text_position' => $this->card_text_position ?: 'center',
         ], fn ($v) => $v !== null);
     }
 }

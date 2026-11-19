@@ -43,6 +43,7 @@ class ProjectForm
                     ->columnSpan(1)
                     ->schema([
                         Fields::image('image_path', 'Immagine della card', 'progetti'),
+                        Fields::cardTextPosition('center'),
                     ]),
                 Section::make('Altri blocchi di testo e documenti')
                     ->description('Nelle sezioni "in corso" e "terminati" i documenti di norma non compaiono nella pagina Progetti (i PDF delle ricerche vanno nella bibliografia di Altre Pubblicazioni): per mostrarne uno, attiva "Mostra nella pagina del progetto" sul singolo documento.')

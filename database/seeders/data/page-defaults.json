@@ -40,5 +40,7 @@
   "pubblicazioni.title": "pubblicazioni",
   "links.title": "social e link utili",
   "news.intro": "<p>In questa sezione sono raccolte, in ordine cronologico, le <strong>notizie e gli aggiornamenti</strong> sulle attività del G.I.O., Gruppo Insubrico di Ornitologia: eventi, progetti, monitoraggi, iniziative, pubblicazioni e tutte le novità che riguardano l'associazione e le sue attività sul territorio.</p>",
-  "news.empty_text": "Stiamo aggiornando le nostre news"
+  "news.empty_text": "Stiamo aggiornando le nostre news",
+  "sito.transparency_title": "Obbligo Legge 124/2017",
+  "sito.transparency_text": "<p>Entro il 30 giugno di ogni anno, l'associazione è tenuta a pubblicare sul proprio sito l'elenco dei vantaggi economici (sovvenzioni, contributi, incarichi retribuiti) ricevuti da pubbliche amministrazioni se l'importo totale annuo è pari o superiore a <strong>10.000 euro</strong>.</p>"
 }

@@ -28,6 +28,7 @@ class OutreachSectionForm
                     ->columnSpan(1)
                     ->schema([
                         Fields::image('image_path', 'Immagine della card', 'divulgazione'),
+                        Fields::cardTextPosition('center'),
                         TagsInput::make('title_parts')
                             ->label('Righe del titolo nella card')
                             ->placeholder('Scrivi una riga e premi Invio')

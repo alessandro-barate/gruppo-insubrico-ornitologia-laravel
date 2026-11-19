@@ -75,6 +75,7 @@ class PublicationSectionForm
                     ->columnSpan(1)
                     ->schema([
                         Fields::image('image_path', 'Immagine della card', 'pubblicazioni'),
+                        Fields::cardTextPosition('bottom'),
                         Fields::image('header_image', 'Immagine in testa alla pagina', 'pubblicazioni')
                             ->visible($is('pdf-list', 'bibliography', 'cards', 'group')),
                         TextInput::make('items_per_page')
